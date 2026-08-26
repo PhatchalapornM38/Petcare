@@ -1,0 +1,1829 @@
+<title>PetCare Network</title>
+<svg style="display:none">
+  <defs>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M4 11.5 12 4l8 7.5"/><path d="M6 10v9h5v-6h2v6h5v-9"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 9.5h17"/><path d="M8 3v4"/><path d="M16 3v4"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3.5 20c0-3.6 2.5-6 5.5-6s5.5 2.4 5.5 6"/><circle cx="17" cy="9" r="2.3"/><path d="M15.2 20c.2-2.8 1.7-5 3.8-5"/></symbol>
+    <symbol id="i-settings" viewBox="0 0 24 24"><line x1="4" y1="6" x2="20" y2="6"/><circle cx="14" cy="6" r="2" fill="currentColor" stroke="none"/><line x1="4" y1="12" x2="20" y2="12"/><circle cx="8" cy="12" r="2" fill="currentColor" stroke="none"/><line x1="4" y1="18" x2="20" y2="18"/><circle cx="16" cy="18" r="2" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-list" viewBox="0 0 24 24"><rect x="4" y="5" width="3" height="3" rx="0.6" fill="currentColor" stroke="none"/><path d="M10 6.5h10"/><rect x="4" y="11" width="3" height="3" rx="0.6" fill="currentColor" stroke="none"/><path d="M10 12.5h10"/><rect x="4" y="17" width="3" height="3" rx="0.6" fill="currentColor" stroke="none"/><path d="M10 18.5h10"/></symbol>
+    <symbol id="i-paw" viewBox="0 0 24 24"><ellipse cx="12" cy="16.2" rx="5" ry="4"/><circle cx="6.3" cy="9" r="2.1"/><circle cx="10.2" cy="5.4" r="2.1"/><circle cx="13.8" cy="5.4" r="2.1"/><circle cx="17.7" cy="9" r="2.1"/></symbol>
+    <symbol id="i-image" viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="16" rx="2"/><circle cx="8.5" cy="9" r="1.6"/><path d="M4 17l5.5-5.5L14 16l2.5-2.5L20 17"/></symbol>
+    <symbol id="i-bell" viewBox="0 0 24 24"><path d="M6 9a6 6 0 0 1 12 0c0 6 2.2 7.5 2.2 7.5H3.8S6 15 6 9Z"/><path d="M10 19.5a2 2 0 0 0 4 0"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.3 15.3 20 20"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12"/><path d="M18 6 6 18"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5 10 17l9-10"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v5l3.5 2"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3.2 19 6v6c0 5-3.2 7.6-7 8.8-3.8-1.2-7-3.8-7-8.8V6l7-2.8Z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.7 7-11.8A7 7 0 0 0 5 9.2C5 14.3 12 21 12 21Z"/><circle cx="12" cy="9.3" r="2.4"/></symbol>
+    <symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="6" r="2.2"/><circle cx="18" cy="18" r="2.2"/><path d="M6 8.2V12a4 4 0 0 0 4 4h4a4 4 0 0 0 4-4v-1"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20V11"/><path d="M10 20V4"/><path d="M16 20v-8"/><path d="M3 20h18"/></symbol>
+    <symbol id="i-mobile" viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18h3" stroke-linecap="round"/></symbol>
+    <symbol id="i-desktop" viewBox="0 0 24 24"><rect x="2.5" y="4" width="19" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></symbol>
+  </defs>
+</svg>
+
+<div class="page">
+
+  <header class="intro">
+    <p class="eyebrow">PetCare Network · UI Mockups</p>
+    <h1>One Pet. One Profile.<br>Every Care Journey.</h1>
+    <p class="lede">ระบบจัดการร้านสำหรับธุรกิจสัตว์เลี้ยง และแอปพาสปอร์ตสำหรับเจ้าของสัตว์ ที่ใช้ข้อมูลชุดเดียวกันผ่าน Pet ID — สลับมุมมองผู้ใช้ด้านล่าง แล้วกดเมนูซ้ายเพื่อดูแต่ละหน้าจอ</p>
+    <div class="meta-row">
+      <div><strong>17</strong><span>หน้าจอที่ออกแบบแล้ว</span></div>
+      <div><strong>3</strong><span>ฝั่งผู้ใช้ · เจ้าของร้าน / พนักงาน / เจ้าของสัตว์</span></div>
+      <div><strong class="accentnum">25 สิงหาคม 2569</strong><span>รอบการออกแบบล่าสุด</span></div>
+    </div>
+  </header>
+
+  <div class="mockup-app">
+    <input type="radio" name="role" id="role-owner" class="visually-hidden" checked>
+    <input type="radio" name="role" id="role-staff" class="visually-hidden">
+    <input type="radio" name="role" id="role-petowner" class="visually-hidden">
+
+    <div class="role-tabs" role="tablist" aria-label="สลับมุมมองผู้ใช้">
+      <label for="role-owner" class="role-tab"><svg class="icon"><use href="#i-home"/></svg>เจ้าของกิจการ</label>
+      <label for="role-staff" class="role-tab"><svg class="icon"><use href="#i-list"/></svg>พนักงานร้าน</label>
+      <label for="role-petowner" class="role-tab"><svg class="icon icon-fill"><use href="#i-paw"/></svg>เจ้าของสัตว์เลี้ยง</label>
+    </div>
+
+    <div class="frame-scroll">
+    <div class="frame">
+
+      <!-- ============ OWNER PANEL ============ -->
+      <div class="panel panel-owner">
+        <input type="radio" name="op" id="op-home" class="visually-hidden" checked>
+        <input type="radio" name="op" id="op-checkin" class="visually-hidden">
+        <input type="radio" name="op" id="op-calendar" class="visually-hidden">
+        <input type="radio" name="op" id="op-crm" class="visually-hidden">
+        <input type="radio" name="op" id="op-followup" class="visually-hidden">
+        <input type="radio" name="op" id="op-branches" class="visually-hidden">
+        <input type="radio" name="op" id="op-reports" class="visually-hidden">
+        <input type="radio" name="op" id="op-staff" class="visually-hidden">
+        <input type="radio" name="op" id="op-settings" class="visually-hidden">
+        <input type="checkbox" id="op-modal-toggle" class="visually-hidden">
+
+        <aside class="sidebar">
+          <div class="shop-badge">
+            <svg class="icon icon-fill icon-lg"><use href="#i-paw"/></svg>
+            <div><strong>แฮปปี้เพ็ท โกรมมิ่ง</strong><span>สาขาอารีย์ (สาขาหลัก)</span></div>
+          </div>
+          <nav class="side-nav">
+            <label for="op-home" class="side-link"><svg class="icon"><use href="#i-home"/></svg>แดชบอร์ด</label>
+            <label for="op-checkin" class="side-link"><svg class="icon"><use href="#i-list"/></svg>เช็คอิน/เช็คเอาท์</label>
+            <label for="op-calendar" class="side-link"><svg class="icon"><use href="#i-calendar"/></svg>ตารางนัดหมาย</label>
+            <label for="op-crm" class="side-link"><svg class="icon icon-fill"><use href="#i-paw"/></svg>ลูกค้า &amp; สัตว์เลี้ยง</label>
+            <label for="op-followup" class="side-link"><svg class="icon"><use href="#i-bell"/></svg>ติดตามลูกค้า<span class="side-badge">12</span></label>
+            <label for="op-branches" class="side-link"><svg class="icon"><use href="#i-pin"/></svg>สาขา &amp; Directory</label>
+            <label for="op-reports" class="side-link"><svg class="icon"><use href="#i-chart"/></svg>รายงาน</label>
+            <label for="op-staff" class="side-link"><svg class="icon"><use href="#i-users"/></svg>พนักงาน</label>
+            <label for="op-settings" class="side-link"><svg class="icon"><use href="#i-settings"/></svg>ตั้งค่าร้าน</label>
+          </nav>
+        </aside>
+
+        <div class="content">
+
+          <!-- Owner > แดชบอร์ด -->
+          <div class="page-panel page-home">
+            <div class="topbar">
+              <div><h2>แดชบอร์ด</h2><p class="date">วันจันทร์ที่ 25 สิงหาคม 2569</p></div>
+              <div class="who"><span class="avatar">สช</span>สมชาย · เจ้าของร้าน</div>
+            </div>
+            <div class="stat-row">
+              <div class="stat-card"><span class="stat-label">รายได้วันนี้</span><span class="stat-value">฿3,450</span><span class="stat-trend up">▲ 12% จากเมื่อวาน</span></div>
+              <div class="stat-card"><span class="stat-label">นัดหมายวันนี้</span><span class="stat-value">6</span><span class="stat-trend neutral">1 เสร็จ · 1 กำลังบริการ · 2 รอคิว · 2 รอยืนยัน</span></div>
+              <div class="stat-card"><span class="stat-label">ควรติดต่อวันนี้</span><span class="stat-value accent">12</span><span class="stat-trend">ดูในติดตามลูกค้า</span></div>
+              <div class="stat-card"><span class="stat-label">ลูกค้าใหม่สัปดาห์นี้</span><span class="stat-value">4</span><span class="stat-trend up">▲ 2 จากสัปดาห์ก่อน</span></div>
+            </div>
+            <div class="two-col">
+              <section class="panel-block">
+                <div class="block-head"><h3>คิววันนี้</h3><label for="op-checkin" class="link">ดูทั้งหมด →</label></div>
+                <ul class="mini-queue">
+                  <li><span class="dot dot-positive"></span><span class="time">09:00</span><span class="who-name">น้องมะลิ · อาบน้ำ+ตัดขน</span><span class="badge badge-positive">เสร็จสิ้น</span></li>
+                  <li><span class="dot dot-positive"></span><span class="time">10:30</span><span class="who-name">น้องดำ · อาบน้ำ</span><span class="badge badge-positive">กำลังบริการ</span></li>
+                  <li><span class="dot dot-neutral"></span><span class="time">11:15</span><span class="who-name">น้องบัวลอย · ตัดเล็บ+อาบน้ำ</span><span class="badge badge-neutral">รอคิว</span></li>
+                </ul>
+              </section>
+              <aside class="panel-block">
+                <div class="block-head"><h3>ควรติดต่อวันนี้</h3></div>
+                <ul class="activity-feed">
+                  <li><svg class="icon icon-sm"><use href="#i-bell"/></svg><div><strong>เบนซ์ · คุณวรรณา</strong>เกินรอบมาแล้ว 18 วัน<span class="accent-text">ควรติดต่อวันนี้</span></div></li>
+                  <li><svg class="icon icon-sm"><use href="#i-bell"/></svg><div><strong>ปุ๋ยฝ้าย · คุณสมชาย</strong>ไม่กลับมา 45 วัน<span class="accent-text">เสี่ยงหลุดลูกค้า</span></div></li>
+                  <li><svg class="icon icon-sm icon-fill"><use href="#i-paw"/></svg><div>สร้างโปรไฟล์ใหม่ <strong>น้องส้ม</strong> (แมวเปอร์เซีย)<span>1 ชม. ที่แล้ว</span></div></li>
+                </ul>
+              </aside>
+            </div>
+          </div>
+
+          <!-- Owner > เช็คอิน/เช็คเอาท์ -->
+          <div class="page-panel page-checkin">
+            <div class="topbar">
+              <div><h2>เช็คอิน/เช็คเอาท์</h2><p class="date">จันทร์ 25 สิงหาคม 2569 · 6 คิว</p></div>
+              <label for="op-modal-toggle" class="btn btn-accent"><svg class="icon icon-sm"><use href="#i-plus"/></svg>นัดใหม่</label>
+            </div>
+
+            <div class="queue-list">
+              <details class="booking-card is-done">
+                <summary>
+                  <span class="badge badge-positive">เสร็จสิ้น</span>
+                  <span class="b-time"><svg class="icon icon-sm"><use href="#i-clock"/></svg>09:00</span>
+                  <span class="b-pet">น้องมะลิ <em>พุดเดิ้ล</em></span>
+                  <span class="b-service">อาบน้ำ+ตัดขน</span>
+                  <svg class="icon chev"><use href="#i-chevron"/></svg>
+                </summary>
+                <div class="card-detail">
+                  <div class="detail-row"><strong>เจ้าของ:</strong> คุณสมหญิง · 081-234-5678</div>
+                  <div class="detail-row"><span class="tag tag-warn">แพ้แชมพูสูตรน้ำหอม</span></div>
+                  <div class="detail-row"><strong>Care Notes</strong>
+                    <ul class="note-list">
+                      <li><span>09:05</span> อาบน้ำเสร็จ ใช้แชมพูสูตรไม่มีน้ำหอมตามที่แพ้ — พนักงาน กิ่ง</li>
+                      <li><span>09:40</span> ตัดขนทรงมาตรฐานเรียบร้อย พฤติกรรมนิ่งมาก — พนักงาน กิ่ง</li>
+                    </ul>
+                  </div>
+                  <div class="detail-row photo-row">
+                    <span class="photo-thumb"><svg class="icon"><use href="#i-image"/></svg></span>
+                    <span class="photo-thumb"><svg class="icon"><use href="#i-image"/></svg></span>
+                  </div>
+                  <div class="detail-row payment-row"><strong>สถานะชำระเงิน:</strong> <span class="badge badge-positive">ชำระแล้ว · ฿450</span></div>
+                </div>
+              </details>
+
+              <details class="booking-card is-progress" open>
+                <summary>
+                  <span class="badge badge-positive">กำลังบริการ</span>
+                  <span class="b-time"><svg class="icon icon-sm"><use href="#i-clock"/></svg>10:30</span>
+                  <span class="b-pet">น้องดำ <em>สก็อตติชโฟลด์</em></span>
+                  <span class="b-service">อาบน้ำ</span>
+                  <svg class="icon chev"><use href="#i-chevron"/></svg>
+                </summary>
+                <div class="card-detail">
+                  <div class="detail-row"><strong>เจ้าของ:</strong> คุณวรรณา · 089-555-1122</div>
+                  <div class="detail-row"><strong>Care Notes</strong>
+                    <ul class="note-list"><li><span>10:32</span> เริ่มอาบน้ำ ตื่นตกใจง่าย ใช้เสียงเบา — พนักงาน ต้น</li></ul>
+                    <div class="note-input">เพิ่มบันทึกเพิ่มเติม…</div>
+                  </div>
+                  <div class="detail-row photo-row"><span class="photo-thumb add"><svg class="icon"><use href="#i-plus"/></svg>เพิ่มรูป</span></div>
+                  <div class="detail-row action-row"><button type="button" class="btn btn-primary" disabled>✓ เสร็จสิ้น</button></div>
+                </div>
+              </details>
+
+              <details class="booking-card is-wait">
+                <summary>
+                  <span class="badge badge-neutral">รอคิว</span>
+                  <span class="b-time"><svg class="icon icon-sm"><use href="#i-clock"/></svg>11:15</span>
+                  <span class="b-pet">น้องบัวลอย <em>ชิสุ</em></span>
+                  <span class="b-service">ตัดเล็บ+อาบน้ำ</span>
+                  <svg class="icon chev"><use href="#i-chevron"/></svg>
+                </summary>
+                <div class="card-detail">
+                  <div class="detail-row"><strong>เจ้าของ:</strong> คุณประยุทธ · 082-333-9090</div>
+                  <div class="detail-row action-row"><button type="button" class="btn btn-primary" disabled>เช็คอิน</button></div>
+                </div>
+              </details>
+
+              <details class="booking-card is-wait">
+                <summary>
+                  <span class="badge badge-pending">รอวัคซีน</span>
+                  <span class="b-time"><svg class="icon icon-sm"><use href="#i-clock"/></svg>13:00</span>
+                  <span class="b-pet">น้องโคโค่ <em>โกลเด้น รีทรีฟเวอร์</em></span>
+                  <span class="b-service">อาบน้ำ+ตัดขน</span>
+                  <svg class="icon chev"><use href="#i-chevron"/></svg>
+                </summary>
+                <div class="card-detail">
+                  <div class="detail-row"><strong>เจ้าของ:</strong> คุณธนกร · 095-777-6644</div>
+                  <div class="detail-row pending-note">ต้องยืนยันบันทึกวัคซีนก่อนเช็คอิน — ตามสิทธิ์ที่เจ้าของเปิดไว้ในพาสปอร์ต</div>
+                  <div class="detail-row action-row"><button type="button" class="btn btn-primary" disabled>เช็คอิน</button></div>
+                </div>
+              </details>
+
+              <details class="booking-card is-wait">
+                <summary>
+                  <span class="badge badge-neutral">รอคิว</span>
+                  <span class="b-time"><svg class="icon icon-sm"><use href="#i-clock"/></svg>14:30</span>
+                  <span class="b-pet">น้องส้ม <em>เปอร์เซีย</em> <span class="tag tag-new">walk-in</span></span>
+                  <span class="b-service">อาบน้ำ</span>
+                  <svg class="icon chev"><use href="#i-chevron"/></svg>
+                </summary>
+                <div class="card-detail">
+                  <div class="detail-row"><strong>เจ้าของ:</strong> คุณอรทัย · 086-111-2233 (ลูกค้าใหม่)</div>
+                  <div class="detail-row action-row"><button type="button" class="btn btn-primary" disabled>เช็คอิน</button></div>
+                </div>
+              </details>
+
+              <details class="booking-card is-wait">
+                <summary>
+                  <span class="badge badge-pending">รอยืนยัน</span>
+                  <span class="b-time"><svg class="icon icon-sm"><use href="#i-clock"/></svg>13:00</span>
+                  <span class="b-pet">น้องแพนด้า <em>ปอมเมอเรเนียน</em> <span class="tag tag-pending">ฉีดวัคซีน</span></span>
+                  <span class="b-service">ฉีดวัคซีนประจำปี</span>
+                  <svg class="icon chev"><use href="#i-chevron"/></svg>
+                </summary>
+                <div class="card-detail">
+                  <div class="detail-row"><strong>เจ้าของ:</strong> คุณปิยะดา · 087-444-2211 (ลูกค้าใหม่)</div>
+                  <div class="detail-row pending-note">นัดฉีดวัคซีนประจำปีร่วมกับสัตวแพทย์พาร์ทเนอร์ — ยืนยันเวลากับสัตวแพทย์ก่อนเช็คอิน</div>
+                  <div class="detail-row action-row"><button type="button" class="btn btn-primary" disabled>เช็คอิน</button></div>
+                </div>
+              </details>
+            </div>
+          </div>
+
+          <!-- Owner > ตารางนัดหมาย -->
+          <div class="page-panel page-calendar">
+            <div class="topbar">
+              <div><h2>ตารางนัดหมาย</h2><p class="date">วันจันทร์ 25 สิงหาคม 2569 · ตารางรายพนักงาน</p></div>
+              <div class="cal-controls">
+                <span class="chip-revenue">รายได้สัปดาห์นี้ ฿18,200</span>
+                <label for="op-modal-toggle" class="btn btn-accent"><svg class="icon icon-sm"><use href="#i-plus"/></svg>นัดใหม่</label>
+              </div>
+            </div>
+            <div class="cal-legend"><span><i class="dot dot-neutral"></i>รอคิว</span><span><i class="dot dot-positive"></i>กำลังบริการ/เสร็จสิ้น</span><span><i class="dot dot-pending"></i>รอยืนยัน/วัคซีน</span></div>
+            <div class="cal-scroll">
+              <div class="cal-grid cal-grid-staff">
+                <div class="cal-corner"></div>
+                <div class="cal-day-head"><strong>กิ่งแก้ว</strong><em>กรูมเมอร์ · โต๊ะ 1</em></div>
+                <div class="cal-day-head"><strong>ต้นกล้า</strong><em>กรูมเมอร์ · โต๊ะ 2</em></div>
+                <div class="cal-hour" style="grid-row:2">09:00</div><div class="cal-hour" style="grid-row:3">10:00</div>
+                <div class="cal-hour" style="grid-row:4">11:00</div><div class="cal-hour" style="grid-row:5">12:00</div>
+                <div class="cal-hour" style="grid-row:6">13:00</div><div class="cal-hour" style="grid-row:7">14:00</div>
+                <div class="cal-hour" style="grid-row:8">15:00</div><div class="cal-hour" style="grid-row:9">16:00</div>
+                <div class="cal-hour" style="grid-row:10">17:00</div>
+                <div class="cal-col-bg" style="grid-column:2"></div><div class="cal-col-bg" style="grid-column:3"></div>
+                <div class="cal-event positive" style="grid-column:2;grid-row:2">09:00 น้องมะลิ · อาบน้ำ+ตัดขน</div>
+                <div class="cal-event neutral" style="grid-column:2;grid-row:4">11:15 น้องบัวลอย · ตัดเล็บ+อาบน้ำ</div>
+                <div class="cal-event slot-open" style="grid-column:2;grid-row:5">ว่าง</div>
+                <div class="cal-event neutral" style="grid-column:2;grid-row:7">14:30 น้องส้ม · อาบน้ำ (walk-in)</div>
+                <div class="cal-event positive" style="grid-column:3;grid-row:3">10:30 น้องดำ · อาบน้ำ</div>
+                <div class="cal-event pending" style="grid-column:3;grid-row:6">13:00 น้องแพนด้า · ฉีดวัคซีนประจำปี<span class="cal-tag">วัคซีน</span></div>
+                <div class="cal-event pending" style="grid-column:3;grid-row:8">15:00 น้องโคโค่ · รอวัคซีนก่อนเช็คอิน</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Owner > ลูกค้า & สัตว์เลี้ยง -->
+          <div class="page-panel page-crm">
+            <div class="topbar"><div><h2>ลูกค้า &amp; สัตว์เลี้ยง</h2><p class="date">ทั้งหมด 6 ราย</p></div></div>
+            <div class="crm-layout">
+              <div class="crm-list">
+                <div class="fake-input search-bar"><svg class="icon icon-sm"><use href="#i-search"/></svg>ค้นหาชื่อลูกค้า/สัตว์เลี้ยง…</div>
+                <ul class="customer-list">
+                  <li class="cust-row is-active"><span class="avatar">สญ</span><div><strong>คุณสมหญิง</strong><span>น้องมะลิ · พุดเดิ้ล</span></div><span class="last-visit">25 ส.ค.</span></li>
+                  <li class="cust-row"><span class="avatar">วว</span><div><strong>คุณวรรณา</strong><span>น้องดำ · สก็อตติชโฟลด์</span></div><span class="last-visit">25 ส.ค.</span></li>
+                  <li class="cust-row"><span class="avatar">ปย</span><div><strong>คุณประยุทธ</strong><span>น้องบัวลอย · ชิสุ</span></div><span class="last-visit">25 ส.ค.</span></li>
+                  <li class="cust-row"><span class="avatar">ธก</span><div><strong>คุณธนกร</strong><span>น้องโคโค่ · โกลเด้นฯ</span></div><span class="last-visit">25 ส.ค.</span></li>
+                  <li class="cust-row"><span class="avatar">อท</span><div><strong>คุณอรทัย</strong><span>น้องส้ม · เปอร์เซีย</span></div><span class="last-visit">25 ส.ค.</span></li>
+                  <li class="cust-row"><span class="avatar">กต</span><div><strong>คุณกิตติ</strong><span>น้องเบนโตะ · ปั๊ก</span></div><span class="last-visit">2 ส.ค.</span></li>
+                </ul>
+                <p class="list-hint">ตัวอย่างนี้แสดงรายละเอียดของ "น้องมะลิ" — รายชื่ออื่นออกแบบไว้สำหรับพัฒนาจริง</p>
+              </div>
+
+              <div class="crm-detail">
+                <input type="radio" name="op-pet-tab" id="op-pt-general" class="visually-hidden" checked>
+                <input type="radio" name="op-pet-tab" id="op-pt-history" class="visually-hidden">
+                <input type="radio" name="op-pet-tab" id="op-pt-notes" class="visually-hidden">
+                <input type="radio" name="op-pet-tab" id="op-pt-photos" class="visually-hidden">
+
+                <div class="pet-hero small">
+                  <div class="pet-photo"><svg class="icon icon-lg icon-fill"><use href="#i-paw"/></svg></div>
+                  <div class="pet-info">
+                    <h3>น้องมะลิ</h3>
+                    <p>พุดเดิ้ล · อายุ 3 ปี · เจ้าของ: คุณสมหญิง เข็มทอง · 081-234-5678</p>
+                    <span class="tag tag-warn">แพ้แชมพูสูตรน้ำหอม</span>
+                  </div>
+                  <span class="qr-mini">PET-8841</span>
+                </div>
+
+                <nav class="pill-tabs">
+                  <label for="op-pt-general" class="pill-tab">ข้อมูลทั่วไป</label>
+                  <label for="op-pt-history" class="pill-tab">ประวัติ</label>
+                  <label for="op-pt-notes" class="pill-tab">Care Notes</label>
+                  <label for="op-pt-photos" class="pill-tab">รูปภาพ</label>
+                </nav>
+
+                <div class="pill-panel pp-general">
+                  <ul class="kv-list">
+                    <li><span>สายพันธุ์</span><strong>พุดเดิ้ล</strong></li>
+                    <li><span>วันเกิด</span><strong>12 มี.ค. 2566 (3 ปี)</strong></li>
+                    <li><span>น้ำหนัก</span><strong>4.2 กก.</strong></li>
+                    <li><span>สี</span><strong>ครีม</strong></li>
+                    <li><span>ข้อควรระวัง</span><strong>แพ้แชมพูสูตรน้ำหอม</strong></li>
+                    <li><span>ผู้ติดต่อฉุกเฉิน</span><strong>คุณสมศักดิ์ (สามี) · 089-876-5432</strong></li>
+                  </ul>
+                </div>
+
+                <div class="pill-panel pp-history">
+                  <table class="svc-table">
+                    <tr><th>วันที่</th><th>บริการ</th><th>พนักงาน</th><th>ชำระเงิน</th></tr>
+                    <tr><td>25 ส.ค. 2569</td><td>อาบน้ำ+ตัดขน</td><td>กิ่งแก้ว</td><td class="pay-ok">฿450</td></tr>
+                    <tr><td>28 ก.ค. 2569</td><td>อาบน้ำ</td><td>ต้นกล้า</td><td class="pay-ok">฿250</td></tr>
+                    <tr><td>30 มิ.ย. 2569</td><td>อาบน้ำ+ตัดขน</td><td>กิ่งแก้ว</td><td class="pay-ok">฿450</td></tr>
+                    <tr><td>2 มิ.ย. 2569</td><td>ตัดเล็บ+อาบน้ำ</td><td>กิ่งแก้ว</td><td class="pay-ok">฿320</td></tr>
+                  </table>
+                </div>
+
+                <div class="pill-panel pp-notes">
+                  <ul class="note-list full">
+                    <li><span>25 ส.ค. 09:40</span>ตัดขนทรงมาตรฐานเรียบร้อย พฤติกรรมนิ่งมาก — กิ่งแก้ว</li>
+                    <li><span>25 ส.ค. 09:05</span>อาบน้ำเสร็จ ใช้แชมพูสูตรไม่มีน้ำหอมตามที่แพ้ — กิ่งแก้ว</li>
+                    <li><span>28 ก.ค. 14:20</span>กลัวไดร์เป่าขน ต้องใช้โหมดเงียบ — ต้นกล้า</li>
+                    <li><span>30 มิ.ย. 10:15</span>ตรวจพบขนพันเล็กน้อยบริเวณหู แจ้งเจ้าของแล้ว — กิ่งแก้ว</li>
+                  </ul>
+                </div>
+
+                <div class="pill-panel pp-photos">
+                  <div class="photo-grid">
+                    <span class="photo-thumb lg"><svg class="icon"><use href="#i-image"/></svg><em>25 ส.ค.</em></span>
+                    <span class="photo-thumb lg"><svg class="icon"><use href="#i-image"/></svg><em>25 ส.ค.</em></span>
+                    <span class="photo-thumb lg"><svg class="icon"><use href="#i-image"/></svg><em>28 ก.ค.</em></span>
+                    <span class="photo-thumb lg"><svg class="icon"><use href="#i-image"/></svg><em>30 มิ.ย.</em></span>
+                    <span class="photo-thumb lg"><svg class="icon"><use href="#i-image"/></svg><em>30 มิ.ย.</em></span>
+                    <span class="photo-thumb lg"><svg class="icon"><use href="#i-image"/></svg><em>2 มิ.ย.</em></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Owner > ติดตามลูกค้า (Preview) -->
+          <div class="page-panel page-followup">
+            <div class="preview-banner">Preview · Phase 2 (Retention Engine) — ยังไม่อยู่ใน MVP ที่อนุมัติ แสดงไว้ให้เห็นทิศทาง</div>
+            <div class="topbar"><div><h2>ติดตามลูกค้า</h2><p class="date">ควรติดต่อวันนี้ 12 ราย · เรียงตามโอกาสกลับมาใช้บริการ</p></div></div>
+            <ul class="followup-list">
+              <li>
+                <div class="fu-main"><strong>เบนซ์ · คุณวรรณา</strong><span>เคยมาทุก 40 วัน ครั้งล่าสุด 58 วันก่อน · ยอดเฉลี่ยต่อครั้ง ฿860</span></div>
+                <span class="tag tag-urgent">เกินรอบ 18 วัน</span>
+                <span class="btn btn-primary sm">จองให้เลย</span>
+              </li>
+              <li>
+                <div class="fu-main"><strong>โอมิริ์ · คุณกิตติ</strong><span>วัคซีนพิษสุนัขบ้าหมดอายุใน 8 วัน</span></div>
+                <span class="tag tag-pending">รอยืนยัน</span>
+                <span class="btn btn-ghost sm">แจ้งเตือนวัคซีน</span>
+              </li>
+              <li>
+                <div class="fu-main"><strong>ปุ๋ยฝ้าย · คุณสมชาย</strong><span>ไม่กลับมา 45 วัน · เคยเป็นลูกค้าประจำ</span></div>
+                <span class="tag tag-urgent">เสี่ยงหลุดลูกค้า</span>
+                <span class="btn btn-ghost sm">ส่งโปรกลับมา</span>
+              </li>
+            </ul>
+            <p class="preview-note">แนวคิด: Vaccine Expiry Alert, Rebooking Reminder, Inactive Customer Detection ตาม Retention Engine ในแผนธุรกิจข้อ 5.3 — จะออกแบบเต็มรูปแบบเมื่อ Phase 2 ได้รับอนุมัติ</p>
+          </div>
+
+          <!-- Owner > สาขา & Directory (Preview) -->
+          <div class="page-panel page-branches">
+            <div class="preview-banner">Preview · Phase 3 (Owner Passport + Store Directory) — ยังไม่อยู่ใน MVP ที่อนุมัติ แสดงไว้ให้เห็นทิศทาง</div>
+            <div class="topbar"><div><h2>สาขา &amp; Directory</h2><p class="date">1 สาขาเปิดให้บริการ · MVP นี้ยังเป็นระบบร้านเดี่ยว</p></div></div>
+            <div class="branch-cards">
+              <div class="branch-card">
+                <div class="branch-head"><strong>แฮปปี้เพ็ท โกรมมิ่ง — อารีย์</strong><span class="tag tag-positive">สาขาหลัก</span></div>
+                <p>123/45 ถ.สุขุมวิท แขวงคลองตัน กรุงเทพฯ · 08:00–20:00 ทุกวัน</p>
+                <div class="branch-stats"><span>นัดวันนี้ <strong>5</strong></span><span>อัตราใช้คิว <strong>82%</strong></span><span>รายรับสัปดาห์นี้ <strong>฿18,200</strong></span></div>
+              </div>
+              <div class="branch-card is-placeholder">
+                <div class="branch-head"><strong>+ เพิ่มสาขา</strong></div>
+                <p>เมื่อขยายหลายสาขา ข้อมูลลูกค้า/สัตว์เลี้ยงใช้ร่วมกันได้ทันทีผ่าน Pet ID เดียว</p>
+              </div>
+            </div>
+            <section class="panel-block" style="margin-top:14px">
+              <h3>หน้าร้านบน Store Directory</h3>
+              <p class="preview-note" style="margin:0 0 10px">ให้เจ้าของสัตว์ที่ยังไม่เคยใช้บริการค้นหาร้านนี้เจอทั่วประเทศ (ดูฝั่งเจ้าของสัตว์ → ค้นหาร้านใกล้ตัว)</p>
+              <div class="toggle-row"><span>แสดงร้านบน Directory</span><label class="switch"><input type="checkbox" checked disabled><span class="switch-track"></span></label></div>
+            </section>
+          </div>
+
+          <!-- Owner > รายงาน (Preview) -->
+          <div class="page-panel page-reports">
+            <div class="preview-banner">Preview · Phase 2 (Basic Analytics) — ยังไม่อยู่ใน MVP ที่อนุมัติ แสดงไว้ให้เห็นทิศทาง</div>
+            <div class="topbar">
+              <div><h2>รายงานรายเดือน</h2><p class="date">สิงหาคม 2569 · 1-25 ส.ค. เทียบกับ 1-25 ก.ค.</p></div>
+              <span class="btn btn-ghost sm">ส่งออก CSV</span>
+            </div>
+
+            <div class="stat-row">
+              <div class="stat-card"><span class="stat-label">รายรับรวม</span><span class="stat-value">฿472,800</span><span class="stat-trend up">▲ 14% จากเดือนก่อน</span></div>
+              <div class="stat-card"><span class="stat-label">งานให้บริการ</span><span class="stat-value">614</span><span class="stat-trend up">▲ 58 งาน</span></div>
+              <div class="stat-card"><span class="stat-label">ยอดเฉลี่ยต่อบิล</span><span class="stat-value">฿770</span><span class="stat-trend neutral">เท่าเดิม</span></div>
+              <div class="stat-card"><span class="stat-label">ลูกค้ากลับมาใช้บริการ</span><span class="stat-value">64%</span><span class="stat-trend up">▲ 6 จุด</span></div>
+            </div>
+
+            <div class="two-col">
+              <section class="panel-block">
+                <h3>รายรับรายสัปดาห์</h3>
+                <div class="chart-bars">
+                  <div class="bar-col"><div class="bar" style="height:68%"></div><span>1-7 ส.ค.<br>฿98,000</span></div>
+                  <div class="bar-col"><div class="bar" style="height:77%"></div><span>8-14 ส.ค.<br>฿112,000</span></div>
+                  <div class="bar-col"><div class="bar" style="height:81%"></div><span>15-21 ส.ค.<br>฿118,000</span></div>
+                  <div class="bar-col"><div class="bar" style="height:59%"></div><span>22-25 ส.ค.<br>฿86,000</span></div>
+                  <div class="bar-col"><div class="bar bar-forecast" style="height:100%"></div><span>คาดการณ์<br>สิ้นเดือน</span></div>
+                </div>
+              </section>
+              <aside class="panel-block summary-block">
+                <h3>สรุปเดือนนี้</h3>
+                <p>รายได้เติบโต 14% จากเดือนก่อน หนุนโดยอาบน้ำ+ตัดขนที่โตต่อเนื่อง และบริการฉีดวัคซีนที่เพิ่งเปิดทำรายได้แล้ว ฿29,400 — ควรผลักดันบริการนี้ต่อในเดือนถัดไป</p>
+                <span class="tag tag-soon">ส่งสรุปนี้เข้า LINE ของเจ้าของร้านทุกวันจันทร์ 09:00</span>
+              </aside>
+            </div>
+
+            <section class="panel-block" style="margin-top:14px">
+              <h3>รายได้ตามบริการ</h3>
+              <table class="svc-table">
+                <tr><th>บริการ</th><th>จำนวน</th><th>รายได้</th><th>สัดส่วน</th><th>เทียบเดือนก่อน</th></tr>
+                <tr><td>อาบน้ำ + ตัดขน</td><td>288</td><td class="pay-ok">฿204,600</td><td>43%</td><td class="trend-up">+11%</td></tr>
+                <tr><td>อาบน้ำ</td><td>226</td><td class="pay-ok">฿113,520</td><td>24%</td><td class="trend-up">+6%</td></tr>
+                <tr><td>ตัดเล็บ + อาบน้ำ</td><td>142</td><td class="pay-ok">฿90,880</td><td>19%</td><td class="trend-up">+8%</td></tr>
+                <tr><td>ตัดเล็บ</td><td>86</td><td class="pay-ok">฿34,400</td><td>7%</td><td class="trend-down">-3%</td></tr>
+                <tr><td>ฉีดวัคซีนประจำปี</td><td>84</td><td class="pay-ok">฿29,400</td><td>6%</td><td class="trend-up">+180% (บริการใหม่)</td></tr>
+              </table>
+            </section>
+
+            <div class="three-col">
+              <section class="panel-block">
+                <h3>ช่วงเวลาที่คิวแน่นที่สุด</h3>
+                <ul class="peak-list">
+                  <li><span>เสาร์ 10:00-14:00</span><div class="peak-bar"><div style="width:94%"></div></div><strong>94%</strong></li>
+                  <li><span>จ.-ศ. 09:00-11:00</span><div class="peak-bar"><div style="width:78%"></div></div><strong>78%</strong></li>
+                  <li><span>จ.-ศ. 13:00-16:00</span><div class="peak-bar"><div style="width:41%"></div></div><strong>41%</strong></li>
+                </ul>
+                <p class="preview-note">ช่วงว่างบ่ายวันธรรมดา เชื่อมกลับไปที่ "ติดตามลูกค้า" สำหรับเสนอคิว</p>
+              </section>
+              <section class="panel-block">
+                <h3>ลูกค้า</h3>
+                <ul class="kv-list">
+                  <li><span>ลูกค้าใหม่เดือนนี้</span><strong>14 ราย</strong></li>
+                  <li><span>จาก Store Directory</span><strong>0 ราย (ยังไม่เปิดใช้)</strong></li>
+                  <li><span>ไม่กลับมาเกิน 90 วัน</span><strong>9 ราย</strong></li>
+                  <li><span>อัตรากลับมาซ้ำ</span><strong>64%</strong></li>
+                </ul>
+              </section>
+              <section class="panel-block">
+                <h3>เทียบกับร้านใกล้เคียง</h3>
+                <p class="preview-note" style="margin-bottom:8px">Grooming ขนาดใกล้เคียง 12 ร้านในเครือข่าย (ไม่ระบุชื่อร้าน)</p>
+                <ul class="kv-list" style="grid-template-columns:1fr">
+                  <li><span>อัตรากลับมาใช้บริการ</span><strong class="trend-up">สูงกว่าค่ากลาง 6 จุด</strong></li>
+                  <li><span>ยอดเฉลี่ยต่อบิล</span><strong>ใกล้เคียงค่ามัธยฐาน</strong></li>
+                </ul>
+              </section>
+            </div>
+            <p class="preview-note" style="margin-top:14px">ส่งรายงานสรุปอัตโนมัติทุกวันจันทร์ 09:00 เข้า LINE ของเจ้าของร้าน — แนวคิดจาก Business Plan ข้อ 6 (Retention/Analytics)</p>
+          </div>
+
+          <!-- Owner > พนักงาน -->
+          <div class="page-panel page-staff">
+            <div class="topbar"><div><h2>พนักงาน</h2><p class="date">4 คน</p></div><span class="btn btn-accent"><svg class="icon icon-sm"><use href="#i-plus"/></svg>เพิ่มพนักงาน</span></div>
+            <ul class="staff-mgmt-list">
+              <li><span class="avatar">สช</span><div><strong>สมชาย ใจดี</strong><span>เจ้าของร้าน</span></div><span class="badge role-owner">Owner</span><span class="tag tag-positive">Active</span></li>
+              <li><span class="avatar">กง</span><div><strong>กิ่งแก้ว มั่นคง</strong><span>ช่างตัดขน · 086-222-1111</span></div><span class="badge role-staff">Staff</span><span class="tag tag-positive">Active</span></li>
+              <li><span class="avatar">ตน</span><div><strong>ต้นกล้า ทองดี</strong><span>ช่างตัดขน · 081-999-4444</span></div><span class="badge role-staff">Staff</span><span class="tag tag-positive">Active</span></li>
+              <li><span class="avatar">มด</span><div><strong>มายด์ ปิติ</strong><span>แคชเชียร์/ต้อนรับ · 095-321-7788</span></div><span class="badge role-staff">Staff</span><span class="tag tag-positive">Active</span></li>
+            </ul>
+          </div>
+
+          <!-- Owner > ตั้งค่าร้าน -->
+          <div class="page-panel page-settings">
+            <div class="topbar"><div><h2>ตั้งค่าร้าน</h2></div></div>
+            <div class="settings-grid">
+              <section class="panel-block">
+                <h3>ข้อมูลร้าน</h3>
+                <div class="form-line"><span>ชื่อร้าน</span><div class="fake-input">แฮปปี้เพ็ท โกรมมิ่ง</div></div>
+                <div class="form-line"><span>ที่อยู่</span><div class="fake-input">123/45 ถ.สุขุมวิท แขวงคลองตัน กรุงเทพฯ</div></div>
+                <div class="form-line"><span>เบอร์ติดต่อ</span><div class="fake-input">02-123-4567</div></div>
+              </section>
+              <section class="panel-block">
+                <h3>เวลาทำการ</h3>
+                <ul class="hours-list">
+                  <li><span>จันทร์ – ศุกร์</span><span>09:00 – 18:00</span></li>
+                  <li><span>เสาร์</span><span>09:00 – 19:00</span></li>
+                  <li><span>อาทิตย์</span><span class="closed-text">ปิดทำการ</span></li>
+                </ul>
+              </section>
+              <section class="panel-block services-block">
+                <div class="block-head"><h3>รายการบริการ</h3><span class="link">+ เพิ่มบริการ</span></div>
+                <table class="svc-table">
+                  <tr><th>บริการ</th><th>เวลา</th><th>ราคา</th></tr>
+                  <tr><td>อาบน้ำ</td><td>30 นาที</td><td>฿250</td></tr>
+                  <tr><td>อาบน้ำ + ตัดขน</td><td>60 นาที</td><td>฿450</td></tr>
+                  <tr><td>ตัดเล็บ</td><td>15 นาที</td><td>฿100</td></tr>
+                  <tr><td>ตัดเล็บ + อาบน้ำ</td><td>40 นาที</td><td>฿320</td></tr>
+                  <tr><td>ฉีดวัคซีนประจำปี (พาร์ทเนอร์สัตวแพทย์)</td><td>20 นาที</td><td>฿350</td></tr>
+                </table>
+              </section>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="modal-overlay">
+          <label for="op-modal-toggle" class="modal-backdrop"></label>
+          <div class="modal-card">
+            <div class="modal-head"><h3>สร้างนัดใหม่</h3><label for="op-modal-toggle" class="modal-close"><svg class="icon"><use href="#i-x"/></svg></label></div>
+            <div class="modal-body">
+              <label class="field"><span>สัตว์เลี้ยง</span><div class="fake-input"><svg class="icon icon-sm"><use href="#i-search"/></svg>สแกน QR หรือค้นชื่อลูกค้า/สัตว์เลี้ยง…</div></label>
+              <label class="field"><span>บริการ</span><div class="fake-input">อาบน้ำ + ตัดขน (60 นาที)<svg class="icon icon-sm"><use href="#i-chevron"/></svg></div></label>
+              <div class="field-row">
+                <label class="field"><span>วันที่</span><div class="fake-input">26 ส.ค. 2569</div></label>
+                <label class="field"><span>เวลา</span><div class="fake-input">09:30</div></label>
+              </div>
+              <p class="modal-hint"><svg class="icon icon-sm"><use href="#i-bell"/></svg>ช่วงเวลานี้ว่าง ไม่ชนกับคิวอื่น</p>
+            </div>
+            <div class="modal-foot">
+              <label for="op-modal-toggle" class="btn btn-ghost">ยกเลิก</label>
+              <span class="btn btn-accent">ยืนยันนัดหมาย</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============ STAFF PANEL ============ -->
+      <div class="panel panel-staff">
+        <input type="radio" name="sp" id="sp-queue" class="visually-hidden" checked>
+        <input type="radio" name="sp" id="sp-calendar" class="visually-hidden">
+        <input type="radio" name="sp" id="sp-crm" class="visually-hidden">
+        <input type="checkbox" id="sp-modal-toggle" class="visually-hidden">
+
+        <aside class="sidebar">
+          <div class="shop-badge">
+            <svg class="icon icon-fill icon-lg"><use href="#i-paw"/></svg>
+            <div><strong>แฮปปี้เพ็ท โกรมมิ่ง</strong><span>สาขาอารีย์</span></div>
+          </div>
+          <nav class="side-nav">
+            <label for="sp-queue" class="side-link"><svg class="icon"><use href="#i-list"/></svg>คิววันนี้</label>
+            <label for="sp-calendar" class="side-link"><svg class="icon"><use href="#i-calendar"/></svg>ปฏิทิน</label>
+            <label for="sp-crm" class="side-link"><svg class="icon icon-fill"><use href="#i-paw"/></svg>ลูกค้า &amp; สัตว์เลี้ยง</label>
+          </nav>
+        </aside>
+
+        <div class="content">
+
+          <!-- Staff > คิววันนี้ -->
+          <div class="page-panel page-queue">
+            <div class="topbar">
+              <div><h2>คิววันนี้</h2><p class="date">จันทร์ 25 สิงหาคม 2569 · 6 คิว</p></div>
+              <label for="sp-modal-toggle" class="btn btn-accent"><svg class="icon icon-sm"><use href="#i-plus"/></svg>นัดใหม่</label>
+            </div>
+
+            <div class="queue-list">
+              <details class="booking-card is-done">
+                <summary>
+                  <span class="badge badge-positive">เสร็จสิ้น</span>
+                  <span class="b-time"><svg class="icon icon-sm"><use href="#i-clock"/></svg>09:00</span>
+                  <span class="b-pet">น้องมะลิ <em>พุดเดิ้ล</em></span>
+                  <span class="b-service">อาบน้ำ+ตัดขน</span>
+                  <svg class="icon chev"><use href="#i-chevron"/></svg>
+                </summary>
+                <div class="card-detail">
+                  <div class="detail-row"><strong>เจ้าของ:</strong> คุณสมหญิง · 081-234-5678</div>
+                  <div class="detail-row"><span class="tag tag-warn">แพ้แชมพูสูตรน้ำหอม</span></div>
+                  <div class="detail-row"><strong>Care Notes</strong>
+                    <ul class="note-list">
+                      <li><span>09:05</span> อาบน้ำเสร็จ ใช้แชมพูสูตรไม่มีน้ำหอมตามที่แพ้ — พนักงาน กิ่ง</li>
+                      <li><span>09:40</span> ตัดขนทรงมาตรฐานเรียบร้อย พฤติกรรมนิ่งมาก — พนักงาน กิ่ง</li>
+                    </ul>
+                  </div>
+                  <div class="detail-row photo-row">
+                    <span class="photo-thumb"><svg class="icon"><use href="#i-image"/></svg></span>
+                    <span class="photo-thumb"><svg class="icon"><use href="#i-image"/></svg></span>
+                  </div>
+                  <div class="detail-row payment-row"><strong>สถานะชำระเงิน:</strong> <span class="badge badge-positive">ชำระแล้ว · ฿450</span></div>
+                </div>
+              </details>
+
+              <details class="booking-card is-progress" open>
+                <summary>
+                  <span class="badge badge-positive">กำลังบริการ</span>
+                  <span class="b-time"><svg class="icon icon-sm"><use href="#i-clock"/></svg>10:30</span>
+                  <span class="b-pet">น้องดำ <em>สก็อตติชโฟลด์</em></span>
+                  <span class="b-service">อาบน้ำ</span>
+                  <svg class="icon chev"><use href="#i-chevron"/></svg>
+                </summary>
+                <div class="card-detail">
+                  <div class="detail-row"><strong>เจ้าของ:</strong> คุณวรรณา · 089-555-1122</div>
+                  <div class="detail-row"><strong>Care Notes</strong>
+                    <ul class="note-list"><li><span>10:32</span> เริ่มอาบน้ำ ตื่นตกใจง่าย ใช้เสียงเบา — พนักงาน ต้น</li></ul>
+                    <div class="note-input">เพิ่มบันทึกเพิ่มเติม…</div>
+                  </div>
+                  <div class="detail-row photo-row"><span class="photo-thumb add"><svg class="icon"><use href="#i-plus"/></svg>เพิ่มรูป</span></div>
+                  <div class="detail-row action-row"><button type="button" class="btn btn-primary" disabled>✓ เสร็จสิ้น</button></div>
+                </div>
+              </details>
+
+              <details class="booking-card is-wait">
+                <summary>
+                  <span class="badge badge-neutral">รอคิว</span>
+                  <span class="b-time"><svg class="icon icon-sm"><use href="#i-clock"/></svg>11:15</span>
+                  <span class="b-pet">น้องบัวลอย <em>ชิสุ</em></span>
+                  <span class="b-service">ตัดเล็บ+อาบน้ำ</span>
+                  <svg class="icon chev"><use href="#i-chevron"/></svg>
+                </summary>
+                <div class="card-detail">
+                  <div class="detail-row"><strong>เจ้าของ:</strong> คุณประยุทธ · 082-333-9090</div>
+                  <div class="detail-row action-row"><button type="button" class="btn btn-primary" disabled>เช็คอิน</button></div>
+                </div>
+              </details>
+
+              <details class="booking-card is-wait">
+                <summary>
+                  <span class="badge badge-pending">รอวัคซีน</span>
+                  <span class="b-time"><svg class="icon icon-sm"><use href="#i-clock"/></svg>13:00</span>
+                  <span class="b-pet">น้องโคโค่ <em>โกลเด้น รีทรีฟเวอร์</em></span>
+                  <span class="b-service">อาบน้ำ+ตัดขน</span>
+                  <svg class="icon chev"><use href="#i-chevron"/></svg>
+                </summary>
+                <div class="card-detail">
+                  <div class="detail-row"><strong>เจ้าของ:</strong> คุณธนกร · 095-777-6644</div>
+                  <div class="detail-row pending-note">ต้องยืนยันบันทึกวัคซีนก่อนเช็คอิน — ตามสิทธิ์ที่เจ้าของเปิดไว้ในพาสปอร์ต</div>
+                  <div class="detail-row action-row"><button type="button" class="btn btn-primary" disabled>เช็คอิน</button></div>
+                </div>
+              </details>
+
+              <details class="booking-card is-wait">
+                <summary>
+                  <span class="badge badge-neutral">รอคิว</span>
+                  <span class="b-time"><svg class="icon icon-sm"><use href="#i-clock"/></svg>14:30</span>
+                  <span class="b-pet">น้องส้ม <em>เปอร์เซีย</em> <span class="tag tag-new">walk-in</span></span>
+                  <span class="b-service">อาบน้ำ</span>
+                  <svg class="icon chev"><use href="#i-chevron"/></svg>
+                </summary>
+                <div class="card-detail">
+                  <div class="detail-row"><strong>เจ้าของ:</strong> คุณอรทัย · 086-111-2233 (ลูกค้าใหม่)</div>
+                  <div class="detail-row action-row"><button type="button" class="btn btn-primary" disabled>เช็คอิน</button></div>
+                </div>
+              </details>
+
+              <details class="booking-card is-wait">
+                <summary>
+                  <span class="badge badge-pending">รอยืนยัน</span>
+                  <span class="b-time"><svg class="icon icon-sm"><use href="#i-clock"/></svg>13:00</span>
+                  <span class="b-pet">น้องแพนด้า <em>ปอมเมอเรเนียน</em> <span class="tag tag-pending">ฉีดวัคซีน</span></span>
+                  <span class="b-service">ฉีดวัคซีนประจำปี</span>
+                  <svg class="icon chev"><use href="#i-chevron"/></svg>
+                </summary>
+                <div class="card-detail">
+                  <div class="detail-row"><strong>เจ้าของ:</strong> คุณปิยะดา · 087-444-2211 (ลูกค้าใหม่)</div>
+                  <div class="detail-row pending-note">นัดฉีดวัคซีนประจำปีร่วมกับสัตวแพทย์พาร์ทเนอร์ — ยืนยันเวลากับสัตวแพทย์ก่อนเช็คอิน</div>
+                  <div class="detail-row action-row"><button type="button" class="btn btn-primary" disabled>เช็คอิน</button></div>
+                </div>
+              </details>
+            </div>
+          </div>
+
+          <!-- Staff > ปฏิทิน -->
+          <div class="page-panel page-calendar">
+            <div class="topbar"><div><h2>ปฏิทิน</h2><p class="date">วันจันทร์ 25 สิงหาคม 2569 · ตารางรายพนักงาน</p></div></div>
+            <div class="cal-legend"><span><i class="dot dot-neutral"></i>รอคิว</span><span><i class="dot dot-positive"></i>กำลังบริการ/เสร็จสิ้น</span><span><i class="dot dot-pending"></i>รอยืนยัน/วัคซีน</span></div>
+            <div class="cal-scroll">
+              <div class="cal-grid cal-grid-staff">
+                <div class="cal-corner"></div>
+                <div class="cal-day-head"><strong>กิ่งแก้ว</strong><em>กรูมเมอร์ · โต๊ะ 1</em></div>
+                <div class="cal-day-head"><strong>ต้นกล้า</strong><em>กรูมเมอร์ · โต๊ะ 2</em></div>
+                <div class="cal-hour" style="grid-row:2">09:00</div><div class="cal-hour" style="grid-row:3">10:00</div>
+                <div class="cal-hour" style="grid-row:4">11:00</div><div class="cal-hour" style="grid-row:5">12:00</div>
+                <div class="cal-hour" style="grid-row:6">13:00</div><div class="cal-hour" style="grid-row:7">14:00</div>
+                <div class="cal-hour" style="grid-row:8">15:00</div><div class="cal-hour" style="grid-row:9">16:00</div>
+                <div class="cal-hour" style="grid-row:10">17:00</div>
+                <div class="cal-col-bg" style="grid-column:2"></div><div class="cal-col-bg" style="grid-column:3"></div>
+                <div class="cal-event positive" style="grid-column:2;grid-row:2">09:00 น้องมะลิ · อาบน้ำ+ตัดขน</div>
+                <div class="cal-event neutral" style="grid-column:2;grid-row:4">11:15 น้องบัวลอย · ตัดเล็บ+อาบน้ำ</div>
+                <div class="cal-event slot-open" style="grid-column:2;grid-row:5">ว่าง</div>
+                <div class="cal-event neutral" style="grid-column:2;grid-row:7">14:30 น้องส้ม · อาบน้ำ (walk-in)</div>
+                <div class="cal-event positive" style="grid-column:3;grid-row:3">10:30 น้องดำ · อาบน้ำ</div>
+                <div class="cal-event pending" style="grid-column:3;grid-row:6">13:00 น้องแพนด้า · ฉีดวัคซีนประจำปี<span class="cal-tag">วัคซีน</span></div>
+                <div class="cal-event pending" style="grid-column:3;grid-row:8">15:00 น้องโคโค่ · รอวัคซีนก่อนเช็คอิน</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Staff > ลูกค้า & สัตว์เลี้ยง -->
+          <div class="page-panel page-crm">
+            <div class="topbar"><div><h2>ลูกค้า &amp; สัตว์เลี้ยง</h2><p class="date">ทั้งหมด 6 ราย</p></div></div>
+            <div class="crm-layout">
+              <div class="crm-list">
+                <div class="fake-input search-bar"><svg class="icon icon-sm"><use href="#i-search"/></svg>ค้นหาชื่อลูกค้า/สัตว์เลี้ยง…</div>
+                <ul class="customer-list">
+                  <li class="cust-row is-active"><span class="avatar">สญ</span><div><strong>คุณสมหญิง</strong><span>น้องมะลิ · พุดเดิ้ล</span></div><span class="last-visit">25 ส.ค.</span></li>
+                  <li class="cust-row"><span class="avatar">วว</span><div><strong>คุณวรรณา</strong><span>น้องดำ · สก็อตติชโฟลด์</span></div><span class="last-visit">25 ส.ค.</span></li>
+                  <li class="cust-row"><span class="avatar">ปย</span><div><strong>คุณประยุทธ</strong><span>น้องบัวลอย · ชิสุ</span></div><span class="last-visit">25 ส.ค.</span></li>
+                  <li class="cust-row"><span class="avatar">ธก</span><div><strong>คุณธนกร</strong><span>น้องโคโค่ · โกลเด้นฯ</span></div><span class="last-visit">25 ส.ค.</span></li>
+                  <li class="cust-row"><span class="avatar">อท</span><div><strong>คุณอรทัย</strong><span>น้องส้ม · เปอร์เซีย</span></div><span class="last-visit">25 ส.ค.</span></li>
+                  <li class="cust-row"><span class="avatar">กต</span><div><strong>คุณกิตติ</strong><span>น้องเบนโตะ · ปั๊ก</span></div><span class="last-visit">2 ส.ค.</span></li>
+                </ul>
+                <p class="list-hint">ตัวอย่างนี้แสดงรายละเอียดของ "น้องมะลิ" — รายชื่ออื่นออกแบบไว้สำหรับพัฒนาจริง</p>
+              </div>
+
+              <div class="crm-detail">
+                <input type="radio" name="sp-pet-tab" id="sp-pt-general" class="visually-hidden" checked>
+                <input type="radio" name="sp-pet-tab" id="sp-pt-history" class="visually-hidden">
+                <input type="radio" name="sp-pet-tab" id="sp-pt-notes" class="visually-hidden">
+                <input type="radio" name="sp-pet-tab" id="sp-pt-photos" class="visually-hidden">
+
+                <div class="pet-hero small">
+                  <div class="pet-photo"><svg class="icon icon-lg icon-fill"><use href="#i-paw"/></svg></div>
+                  <div class="pet-info">
+                    <h3>น้องมะลิ</h3>
+                    <p>พุดเดิ้ล · อายุ 3 ปี · เจ้าของ: คุณสมหญิง เข็มทอง · 081-234-5678</p>
+                    <span class="tag tag-warn">แพ้แชมพูสูตรน้ำหอม</span>
+                  </div>
+                  <span class="qr-mini">PET-8841</span>
+                </div>
+
+                <nav class="pill-tabs">
+                  <label for="sp-pt-general" class="pill-tab">ข้อมูลทั่วไป</label>
+                  <label for="sp-pt-history" class="pill-tab">ประวัติ</label>
+                  <label for="sp-pt-notes" class="pill-tab">Care Notes</label>
+                  <label for="sp-pt-photos" class="pill-tab">รูปภาพ</label>
+                </nav>
+
+                <div class="pill-panel pp-general">
+                  <ul class="kv-list">
+                    <li><span>สายพันธุ์</span><strong>พุดเดิ้ล</strong></li>
+                    <li><span>วันเกิด</span><strong>12 มี.ค. 2566 (3 ปี)</strong></li>
+                    <li><span>น้ำหนัก</span><strong>4.2 กก.</strong></li>
+                    <li><span>สี</span><strong>ครีม</strong></li>
+                    <li><span>ข้อควรระวัง</span><strong>แพ้แชมพูสูตรน้ำหอม</strong></li>
+                    <li><span>ผู้ติดต่อฉุกเฉิน</span><strong>คุณสมศักดิ์ (สามี) · 089-876-5432</strong></li>
+                  </ul>
+                </div>
+                <div class="pill-panel pp-history">
+                  <table class="svc-table">
+                    <tr><th>วันที่</th><th>บริการ</th><th>พนักงาน</th><th>ชำระเงิน</th></tr>
+                    <tr><td>25 ส.ค. 2569</td><td>อาบน้ำ+ตัดขน</td><td>กิ่งแก้ว</td><td class="pay-ok">฿450</td></tr>
+                    <tr><td>28 ก.ค. 2569</td><td>อาบน้ำ</td><td>ต้นกล้า</td><td class="pay-ok">฿250</td></tr>
+                    <tr><td>30 มิ.ย. 2569</td><td>อาบน้ำ+ตัดขน</td><td>กิ่งแก้ว</td><td class="pay-ok">฿450</td></tr>
+                    <tr><td>2 มิ.ย. 2569</td><td>ตัดเล็บ+อาบน้ำ</td><td>กิ่งแก้ว</td><td class="pay-ok">฿320</td></tr>
+                  </table>
+                </div>
+                <div class="pill-panel pp-notes">
+                  <ul class="note-list full">
+                    <li><span>25 ส.ค. 09:40</span>ตัดขนทรงมาตรฐานเรียบร้อย พฤติกรรมนิ่งมาก — กิ่งแก้ว</li>
+                    <li><span>25 ส.ค. 09:05</span>อาบน้ำเสร็จ ใช้แชมพูสูตรไม่มีน้ำหอมตามที่แพ้ — กิ่งแก้ว</li>
+                    <li><span>28 ก.ค. 14:20</span>กลัวไดร์เป่าขน ต้องใช้โหมดเงียบ — ต้นกล้า</li>
+                    <li><span>30 มิ.ย. 10:15</span>ตรวจพบขนพันเล็กน้อยบริเวณหู แจ้งเจ้าของแล้ว — กิ่งแก้ว</li>
+                  </ul>
+                </div>
+                <div class="pill-panel pp-photos">
+                  <div class="photo-grid">
+                    <span class="photo-thumb lg"><svg class="icon"><use href="#i-image"/></svg><em>25 ส.ค.</em></span>
+                    <span class="photo-thumb lg"><svg class="icon"><use href="#i-image"/></svg><em>25 ส.ค.</em></span>
+                    <span class="photo-thumb lg"><svg class="icon"><use href="#i-image"/></svg><em>28 ก.ค.</em></span>
+                    <span class="photo-thumb lg"><svg class="icon"><use href="#i-image"/></svg><em>30 มิ.ย.</em></span>
+                    <span class="photo-thumb lg"><svg class="icon"><use href="#i-image"/></svg><em>30 มิ.ย.</em></span>
+                    <span class="photo-thumb lg"><svg class="icon"><use href="#i-image"/></svg><em>2 มิ.ย.</em></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="modal-overlay">
+          <label for="sp-modal-toggle" class="modal-backdrop"></label>
+          <div class="modal-card">
+            <div class="modal-head"><h3>สร้างนัดใหม่</h3><label for="sp-modal-toggle" class="modal-close"><svg class="icon"><use href="#i-x"/></svg></label></div>
+            <div class="modal-body">
+              <label class="field"><span>สัตว์เลี้ยง</span><div class="fake-input"><svg class="icon icon-sm"><use href="#i-search"/></svg>สแกน QR หรือค้นชื่อลูกค้า/สัตว์เลี้ยง…</div></label>
+              <label class="field"><span>บริการ</span><div class="fake-input">อาบน้ำ + ตัดขน (60 นาที)<svg class="icon icon-sm"><use href="#i-chevron"/></svg></div></label>
+              <div class="field-row">
+                <label class="field"><span>วันที่</span><div class="fake-input">25 ส.ค. 2569</div></label>
+                <label class="field"><span>เวลา</span><div class="fake-input">15:30</div></label>
+              </div>
+              <p class="modal-hint"><svg class="icon icon-sm"><use href="#i-bell"/></svg>ช่วงเวลานี้ว่าง ไม่ชนกับคิวอื่น</p>
+            </div>
+            <div class="modal-foot">
+              <label for="sp-modal-toggle" class="btn btn-ghost">ยกเลิก</label>
+              <span class="btn btn-accent">ยืนยันนัดหมาย</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============ PET OWNER PANEL ============ -->
+      <div class="panel panel-petowner">
+       <input type="radio" name="po-view" id="po-view-mobile" class="visually-hidden" checked>
+       <input type="radio" name="po-view" id="po-view-web" class="visually-hidden">
+       <input type="checkbox" id="po-modal-toggle" class="visually-hidden">
+
+       <div class="po-view-switch">
+         <label for="po-view-mobile" class="po-view-btn"><svg class="icon icon-sm"><use href="#i-mobile"/></svg>มือถือ</label>
+         <label for="po-view-web" class="po-view-btn"><svg class="icon icon-sm"><use href="#i-desktop"/></svg>เว็บ</label>
+       </div>
+
+       <div class="po-view-mobile-wrap">
+       <div class="phone-frame">
+        <input type="radio" name="ptab" id="ptab-pets" class="visually-hidden" checked>
+        <input type="radio" name="ptab" id="ptab-discover" class="visually-hidden">
+        <input type="radio" name="ptab" id="ptab-history" class="visually-hidden">
+        <input type="radio" name="ptab" id="ptab-appt" class="visually-hidden">
+        <input type="radio" name="ptab" id="ptab-access" class="visually-hidden">
+        <input type="checkbox" id="po-modal-toggle-mobile" class="visually-hidden">
+
+        <div class="phone-statusbar">
+          <span>9:41</span>
+          <span class="battery"><span class="battery-body"></span><span class="battery-nub"></span></span>
+        </div>
+        <div class="phone-header">
+          <div class="portal-brand"><svg class="icon icon-fill icon-lg"><use href="#i-paw"/></svg>Pet Passport</div>
+          <span class="who"><span class="avatar">สญ</span>คุณสมหญิง</span>
+        </div>
+
+        <div class="phone-body">
+          <div class="portal-panel panel-pets">
+            <div class="pet-hero">
+              <div class="pet-photo"><svg class="icon icon-xl icon-fill"><use href="#i-paw"/></svg></div>
+              <div class="pet-info">
+                <h3>น้องมะลิ</h3>
+                <p>พุดเดิ้ล · อายุ 3 ปี · 4.2 กก.</p>
+                <span class="tag tag-warn">แพ้แชมพูสูตรน้ำหอม</span>
+              </div>
+            </div>
+            <div class="qr-box">
+              <svg class="qr-svg" viewBox="0 0 100 100" aria-hidden="true">
+                <rect x="0" y="0" width="100" height="100" fill="var(--surface)"/>
+                <g fill="currentColor">
+                  <rect x="4" y="4" width="28" height="28"/><rect x="10" y="10" width="16" height="16" fill="var(--surface)"/><rect x="14" y="14" width="8" height="8"/>
+                  <rect x="68" y="4" width="28" height="28"/><rect x="74" y="10" width="16" height="16" fill="var(--surface)"/><rect x="78" y="14" width="8" height="8"/>
+                  <rect x="4" y="68" width="28" height="28"/><rect x="10" y="74" width="16" height="16" fill="var(--surface)"/><rect x="14" y="78" width="8" height="8"/>
+                  <rect x="40" y="6" width="5" height="5"/><rect x="48" y="6" width="5" height="5"/><rect x="56" y="12" width="5" height="5"/><rect x="40" y="18" width="5" height="5"/><rect x="52" y="24" width="5" height="5"/>
+                  <rect x="40" y="40" width="5" height="5"/><rect x="48" y="40" width="5" height="5"/><rect x="56" y="40" width="5" height="5"/><rect x="40" y="48" width="5" height="5"/><rect x="48" y="48" width="5" height="5"/><rect x="56" y="52" width="5" height="5"/><rect x="40" y="58" width="5" height="5"/>
+                  <rect x="68" y="40" width="5" height="5"/><rect x="76" y="44" width="5" height="5"/><rect x="84" y="40" width="5" height="5"/><rect x="68" y="52" width="5" height="5"/><rect x="80" y="56" width="5" height="5"/><rect x="88" y="48" width="5" height="5"/>
+                  <rect x="44" y="68" width="5" height="5"/><rect x="52" y="72" width="5" height="5"/><rect x="60" y="68" width="5" height="5"/><rect x="44" y="80" width="5" height="5"/><rect x="56" y="88" width="5" height="5"/><rect x="68" y="76" width="5" height="5"/><rect x="80" y="84" width="5" height="5"/><rect x="88" y="76" width="5" height="5"/>
+                </g>
+              </svg>
+              <div><span class="pet-id-label">Pet ID</span><strong class="pet-id">PET-8841</strong><p class="hint">ยื่น QR นี้ที่ร้านเพื่อเปิดประวัติทันที ไม่ต้องกรอกซ้ำ</p></div>
+            </div>
+            <label for="ptab-discover" class="discover-link">
+              <svg class="icon"><use href="#i-pin"/></svg>
+              <span>ยังไม่มีร้านประจำ? ค้นหาร้านใกล้ฉัน →</span>
+            </label>
+          </div>
+
+          <div class="portal-panel panel-discover">
+            <div class="preview-banner">Preview · Phase 3 (Store Directory) — ยังไม่อยู่ใน MVP ที่อนุมัติ แสดงไว้ให้เห็นทิศทาง</div>
+            <div class="fake-input search-bar"><svg class="icon icon-sm"><use href="#i-search"/></svg>ค้นหาร้าน กรูมมิ่ง โรงแรมสัตว์…</div>
+            <div class="filter-chips">
+              <span class="chip is-active">ใกล้ฉัน</span>
+              <span class="chip">กรูมมิ่ง</span>
+              <span class="chip">โรงแรม</span>
+              <span class="chip">เปิดตอนนี้</span>
+            </div>
+
+            <div class="map-box">
+              <svg class="map-svg" viewBox="0 0 400 150" aria-hidden="true">
+                <rect width="400" height="150" rx="14" fill="var(--brand-soft)"/>
+                <circle cx="70" cy="115" r="34" fill="var(--brand)" opacity="0.12"/>
+                <circle cx="330" cy="35" r="46" fill="var(--brand)" opacity="0.1"/>
+                <path d="M0 40h400M0 80h400M0 120h400M80 0v150M180 0v150M280 0v150" stroke="var(--border)" stroke-width="1"/>
+                <use href="#i-pin" x="52" y="18" width="24" height="24" fill="var(--accent)"/>
+                <use href="#i-pin" x="228" y="10" width="24" height="24" fill="var(--accent)"/>
+                <use href="#i-pin" x="266" y="82" width="24" height="24" fill="var(--accent)"/>
+                <circle cx="180" cy="90" r="7" fill="var(--brand)" stroke="#fff" stroke-width="3"/>
+              </svg>
+              <span class="map-caption">แผนที่ (ตัวอย่าง) · พบ 24 ร้านในรัศมี 5 กม.</span>
+            </div>
+
+            <div class="block-head" style="margin:16px 0 8px"><h3>ร้านใกล้ฉัน</h3><span class="link">เรียงตามระยะทาง ▾</span></div>
+            <ul class="shop-list">
+              <li>
+                <div class="shop-main"><strong>แฮปปี้เพ็ท โกรมมิ่ง · อารีย์</strong><span class="shop-dist">0.8 กม.</span></div>
+                <p class="shop-tags">กรูมมิ่ง <span class="tag tag-positive">เคยใช้บริการ</span></p>
+                <div class="shop-meta"><span>★ 4.9 · 212 รีวิว</span><span>เปิดถึง 20:00</span></div>
+                <div class="shop-actions"><span class="btn btn-primary sm">จองคิว</span><span class="btn btn-ghost sm"><svg class="icon icon-sm"><use href="#i-route"/></svg>เส้นทาง</span></div>
+              </li>
+              <li>
+                <div class="shop-main"><strong>Paw Villa Hotel</strong><span class="shop-dist">1.4 กม.</span></div>
+                <p class="shop-tags">โรงแรม · เดย์แคร์ <span class="tag tag-pending">ใช้ Pet ID เดิมได้</span></p>
+                <div class="shop-meta"><span>★ 4.7 · 88 รีวิว</span></div>
+                <div class="shop-actions"><span class="btn btn-primary sm">จองคิว</span><span class="btn btn-ghost sm"><svg class="icon icon-sm"><use href="#i-route"/></svg>เส้นทาง</span></div>
+              </li>
+              <li>
+                <div class="shop-main"><strong>มินท์เพ็ทสปา</strong><span class="shop-dist">2.1 กม.</span></div>
+                <p class="shop-tags">กรูมมิ่ง · สปาสุนัข</p>
+                <div class="shop-meta"><span>★ 4.8 · 141 รีวิว</span><span>คิวว่างวันนี้</span></div>
+                <div class="shop-actions"><span class="btn btn-primary sm">จองคิว</span><span class="btn btn-ghost sm"><svg class="icon icon-sm"><use href="#i-route"/></svg>เส้นทาง</span></div>
+              </li>
+            </ul>
+            <p class="preview-note">จองร้านใหม่ที่เพิ่งค้นเจอไม่ต้องกรอกประวัติซ้ำ — ร้านบน PetCare Network เห็นเฉพาะข้อมูลที่คุณอนุญาตไว้ในแท็บ "สิทธิ์"</p>
+          </div>
+
+          <div class="portal-panel panel-history">
+            <ul class="timeline">
+              <li><span class="tl-dot"></span>
+                <div class="tl-content">
+                  <div class="tl-head"><strong>อาบน้ำ + ตัดขน</strong><span>25 ส.ค. 2569</span></div>
+                  <p>ที่ แฮปปี้เพ็ท โกรมมิ่ง — พฤติกรรมนิ่งมาก ตัดขนทรงมาตรฐาน</p>
+                  <div class="photo-row"><span class="photo-thumb"><svg class="icon"><use href="#i-image"/></svg></span><span class="photo-thumb"><svg class="icon"><use href="#i-image"/></svg></span></div>
+                </div>
+              </li>
+              <li><span class="tl-dot"></span>
+                <div class="tl-content">
+                  <div class="tl-head"><strong>อาบน้ำ</strong><span>28 ก.ค. 2569</span></div>
+                  <p>ที่ แฮปปี้เพ็ท โกรมมิ่ง — ใช้แชมพูสูตรไม่มีน้ำหอมตามประวัติแพ้</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="portal-panel panel-appt">
+            <div class="reminder-card">
+              <svg class="icon icon-lg"><use href="#i-bell"/></svg>
+              <div>
+                <strong>แจ้งเตือนวัคซีน</strong>
+                <p>น้องมะลิครบกำหนดฉีดวัคซีนพิษสุนัขบ้าเข็มถัดไป <strong>2 กันยายน 2569</strong> (อีก 8 วัน)</p>
+                <span class="btn btn-accent sm">จองคิวฉีดวัคซีน</span>
+              </div>
+            </div>
+            <div class="appt-topline">
+              <div><strong>2 นัดกำลังจะถึง</strong></div>
+              <label for="po-modal-toggle-mobile" class="btn btn-accent sm"><svg class="icon icon-sm"><use href="#i-plus"/></svg>จองใหม่</label>
+            </div>
+            <div class="appt-card is-confirmed">
+              <div class="appt-head"><span>เสาร์ 30 ส.ค. · 10:00–12:00</span><span class="badge badge-positive">ยืนยันแล้ว</span></div>
+              <strong class="appt-service">อาบน้ำ + ตัดขน</strong>
+              <ul class="appt-info">
+                <li><span>สัตว์เลี้ยง</span>น้องมะลิ</li>
+                <li><span>ร้าน</span>แฮปปี้เพ็ท โกรมมิ่ง · อารีย์</li>
+                <li><span>ราคาประมาณ</span>฿450</li>
+              </ul>
+              <div class="appt-actions">
+                <span class="btn btn-primary sm">แสดง QR เช็คอิน</span>
+                <span class="btn btn-ghost sm"><svg class="icon icon-sm"><use href="#i-route"/></svg>เส้นทาง</span>
+                <span class="btn btn-ghost sm">เลื่อนนัด</span>
+                <span class="btn btn-ghost sm">ยกเลิก</span>
+              </div>
+            </div>
+            <div class="appt-card is-pending">
+              <div class="appt-head"><span>อาทิตย์ 7 ก.ย. · 13:00</span><span class="badge badge-pending">รอร้านยืนยัน</span></div>
+              <strong class="appt-service">พักโรงแรม 2 คืน</strong>
+              <p class="appt-pending-note">ร้านขอดูประวัติวัคซีนก่อนยืนยัน — คำขออยู่ในแท็บ <label for="ptab-access" class="inline-link">สิทธิ์</label></p>
+            </div>
+            <div class="block-head" style="margin-top:18px"><h3>เคยจองผ่านมา</h3></div>
+            <ul class="rebook-list">
+              <li><div><strong>สปาสนุบไพร</strong><span>ครั้งล่าสุด 12 ก.ค. · ฿1,250</span></div><span class="btn btn-ghost sm">จองซ้ำ</span></li>
+              <li><div><strong>ตัดเล็บ</strong><span>ครั้งล่าสุด 3 พ.ค. · ฿220</span></div><span class="btn btn-ghost sm">จองซ้ำ</span></li>
+            </ul>
+          </div>
+
+          <div class="portal-panel panel-access">
+            <p class="access-sub">น้องมะลิ · PET-8841 — คุณเป็นผู้ตัดสินใจว่าร้านไหนเห็นข้อมูลอะไร</p>
+            <div class="qr-access-card">
+              <svg class="icon icon-lg"><use href="#i-shield"/></svg>
+              <div><strong>ให้ร้านสแกนเพื่อเช็คอิน</strong><p>QR ใช้ได้ 10 นาที และให้สิทธิ์เฉพาะหมวดที่เปิดไว้ด้านล่างเท่านั้น</p></div>
+              <span class="countdown">09:42</span>
+            </div>
+
+            <h3 class="access-h">ข้อมูลที่แชร์ได้</h3>
+            <ul class="toggle-list">
+              <li><div><strong>สุขภาพ &amp; วัคซีน</strong><span>จำเป็นสำหรับโรงแรม/เดย์แคร์</span></div><label class="switch"><input type="checkbox" checked disabled><span class="switch-track"></span></label></li>
+              <li><div><strong>แพ้ / ข้อจำกัดอาหาร</strong><span>แนะนำให้เปิดเสมอ</span></div><label class="switch"><input type="checkbox" checked disabled><span class="switch-track"></span></label></li>
+              <li><div><strong>ประวัติบริการจากร้านอื่น</strong><span>ช่วยให้ร้านใหม่ดูแลได้ตรงขึ้น</span></div><label class="switch"><input type="checkbox" checked disabled><span class="switch-track"></span></label></li>
+              <li><div><strong>เบอร์ติดต่อฉุกเฉิน</strong><span>เปิดเฉพาะกรณีจำเป็น</span></div><label class="switch"><input type="checkbox" disabled><span class="switch-track"></span></label></li>
+            </ul>
+
+            <h3 class="access-h">ร้านที่เคยได้รับสิทธิ์</h3>
+            <ul class="grant-list">
+              <li><div><strong>แฮปปี้เพ็ท โกรมมิ่ง</strong><span>ใช้บริการแล้ว 14 ครั้ง</span></div><span class="btn btn-ghost sm">ถอนสิทธิ์</span></li>
+              <li><div><strong>Paw Villa Hotel</strong><span>สิทธิ์ชั่วคราว · หมดอายุ 30 ก.ย. 2569</span></div><span class="tag tag-pending">ชั่วคราว</span></li>
+              <li class="grant-pending">
+                <div><strong>มินท์เพ็ทสปา</strong><span>ขอดูประวัติวัคซีน — คำขอเมื่อ 10 นาทีก่อน (ก่อนเข้าพักวันเสาร์)</span></div>
+                <div class="grant-actions"><span class="btn btn-primary sm">อนุญาต 30 วัน</span><span class="btn btn-ghost sm">ปฏิเสธ</span></div>
+              </li>
+            </ul>
+
+            <h3 class="access-h">ประวัติการเข้าถึงล่าสุด</h3>
+            <ul class="access-log">
+              <li><span>แฮปปี้เพ็ท โกรมมิ่ง เปิดดูวัคซีน</span><span class="log-time">วันนี้ 08:12</span></li>
+              <li><span>Paw Villa Hotel บันทึก Care Note</span><span class="log-time">28 พ.ค. 14:30</span></li>
+            </ul>
+            <p class="preview-note">บันทึกทุกครั้งที่มีการเข้าถึงข้อมูล ตามหลัก PDPA — ถอนสิทธิ์ได้ทุกเมื่อ</p>
+          </div>
+        </div>
+
+        <nav class="phone-tabbar">
+          <label for="ptab-pets" class="phone-tab"><svg class="icon icon-fill"><use href="#i-paw"/></svg>พาสปอร์ต</label>
+          <label for="ptab-discover" class="phone-tab"><svg class="icon"><use href="#i-pin"/></svg>ค้นหาร้าน</label>
+          <label for="ptab-history" class="phone-tab"><svg class="icon"><use href="#i-image"/></svg>ไทม์ไลน์</label>
+          <label for="ptab-appt" class="phone-tab"><svg class="icon"><use href="#i-calendar"/></svg>นัดหมาย</label>
+          <label for="ptab-access" class="phone-tab"><svg class="icon"><use href="#i-shield"/></svg>สิทธิ์</label>
+        </nav>
+        <div class="phone-home-indicator"></div>
+
+        <div class="modal-overlay">
+          <label for="po-modal-toggle-mobile" class="modal-backdrop"></label>
+          <div class="modal-card">
+            <div class="modal-head"><h3>จองคิวใหม่</h3><label for="po-modal-toggle-mobile" class="modal-close"><svg class="icon"><use href="#i-x"/></svg></label></div>
+            <div class="modal-body">
+              <label class="field"><span>สัตว์เลี้ยง</span><div class="fake-input">น้องมะลิ · พุดเดิ้ล<svg class="icon icon-sm"><use href="#i-chevron"/></svg></div></label>
+              <label class="field"><span>ร้าน</span><div class="fake-input">แฮปปี้เพ็ท โกรมมิ่ง · อารีย์ (เคยใช้บริการ)<svg class="icon icon-sm"><use href="#i-chevron"/></svg></div></label>
+              <label class="field"><span>บริการ</span><div class="fake-input">อาบน้ำ + ตัดขน (60 นาที) · ฿450<svg class="icon icon-sm"><use href="#i-chevron"/></svg></div></label>
+              <div class="field-row">
+                <label class="field"><span>วันที่</span><div class="fake-input">6 ก.ย. 2569</div></label>
+                <label class="field"><span>เวลา</span><div class="fake-input">10:00</div></label>
+              </div>
+              <p class="modal-hint"><svg class="icon icon-sm"><use href="#i-bell"/></svg>ไม่ต้องกรอกประวัติสัตว์ซ้ำ — ร้านนี้มี Pet ID ของน้องมะลิอยู่แล้ว</p>
+            </div>
+            <div class="modal-foot">
+              <label for="po-modal-toggle-mobile" class="btn btn-ghost">ยกเลิก</label>
+              <span class="btn btn-accent">ยืนยันการจอง</span>
+            </div>
+          </div>
+        </div>
+       </div>
+       </div>
+
+       <div class="po-view-web-wrap">
+       <div class="web-frame">
+        <input type="radio" name="wtab" id="wtab-pets" class="visually-hidden" checked>
+        <input type="radio" name="wtab" id="wtab-discover" class="visually-hidden">
+        <input type="radio" name="wtab" id="wtab-history" class="visually-hidden">
+        <input type="radio" name="wtab" id="wtab-appt" class="visually-hidden">
+        <input type="radio" name="wtab" id="wtab-access" class="visually-hidden">
+
+        <div class="portal-topbar">
+          <div class="portal-brand"><svg class="icon icon-fill icon-lg"><use href="#i-paw"/></svg>Pet Passport</div>
+          <span class="who"><span class="avatar">สญ</span>คุณสมหญิง</span>
+        </div>
+        <nav class="portal-tabs">
+          <label for="wtab-pets" class="portal-tab"><svg class="icon icon-fill"><use href="#i-paw"/></svg>พาสปอร์ต</label>
+          <label for="wtab-discover" class="portal-tab"><svg class="icon"><use href="#i-pin"/></svg>ค้นหาร้าน</label>
+          <label for="wtab-history" class="portal-tab"><svg class="icon"><use href="#i-image"/></svg>ไทม์ไลน์</label>
+          <label for="wtab-appt" class="portal-tab"><svg class="icon"><use href="#i-calendar"/></svg>นัดหมาย</label>
+          <label for="wtab-access" class="portal-tab"><svg class="icon"><use href="#i-shield"/></svg>สิทธิ์</label>
+        </nav>
+
+        <div class="portal-body">
+          <div class="portal-panel panel-pets">
+            <div class="pet-hero">
+              <div class="pet-photo"><svg class="icon icon-xl icon-fill"><use href="#i-paw"/></svg></div>
+              <div class="pet-info">
+                <h3>น้องมะลิ</h3>
+                <p>พุดเดิ้ล · อายุ 3 ปี · 4.2 กก.</p>
+                <span class="tag tag-warn">แพ้แชมพูสูตรน้ำหอม</span>
+              </div>
+            </div>
+            <div class="qr-box">
+              <svg class="qr-svg" viewBox="0 0 100 100" aria-hidden="true">
+                <rect x="0" y="0" width="100" height="100" fill="var(--surface)"/>
+                <g fill="currentColor">
+                  <rect x="4" y="4" width="28" height="28"/><rect x="10" y="10" width="16" height="16" fill="var(--surface)"/><rect x="14" y="14" width="8" height="8"/>
+                  <rect x="68" y="4" width="28" height="28"/><rect x="74" y="10" width="16" height="16" fill="var(--surface)"/><rect x="78" y="14" width="8" height="8"/>
+                  <rect x="4" y="68" width="28" height="28"/><rect x="10" y="74" width="16" height="16" fill="var(--surface)"/><rect x="14" y="78" width="8" height="8"/>
+                  <rect x="40" y="6" width="5" height="5"/><rect x="48" y="6" width="5" height="5"/><rect x="56" y="12" width="5" height="5"/><rect x="40" y="18" width="5" height="5"/><rect x="52" y="24" width="5" height="5"/>
+                  <rect x="40" y="40" width="5" height="5"/><rect x="48" y="40" width="5" height="5"/><rect x="56" y="40" width="5" height="5"/><rect x="40" y="48" width="5" height="5"/><rect x="48" y="48" width="5" height="5"/><rect x="56" y="52" width="5" height="5"/><rect x="40" y="58" width="5" height="5"/>
+                  <rect x="68" y="40" width="5" height="5"/><rect x="76" y="44" width="5" height="5"/><rect x="84" y="40" width="5" height="5"/><rect x="68" y="52" width="5" height="5"/><rect x="80" y="56" width="5" height="5"/><rect x="88" y="48" width="5" height="5"/>
+                  <rect x="44" y="68" width="5" height="5"/><rect x="52" y="72" width="5" height="5"/><rect x="60" y="68" width="5" height="5"/><rect x="44" y="80" width="5" height="5"/><rect x="56" y="88" width="5" height="5"/><rect x="68" y="76" width="5" height="5"/><rect x="80" y="84" width="5" height="5"/><rect x="88" y="76" width="5" height="5"/>
+                </g>
+              </svg>
+              <div><span class="pet-id-label">Pet ID</span><strong class="pet-id">PET-8841</strong><p class="hint">ยื่น QR นี้ที่ร้านเพื่อเปิดประวัติทันที ไม่ต้องกรอกซ้ำ</p></div>
+            </div>
+            <label for="wtab-discover" class="discover-link">
+              <svg class="icon"><use href="#i-pin"/></svg>
+              <span>ยังไม่มีร้านประจำ? ค้นหาร้านใกล้ฉัน →</span>
+            </label>
+          </div>
+
+          <div class="portal-panel panel-discover">
+            <div class="preview-banner">Preview · Phase 3 (Store Directory) — ยังไม่อยู่ใน MVP ที่อนุมัติ แสดงไว้ให้เห็นทิศทาง</div>
+            <div class="fake-input search-bar"><svg class="icon icon-sm"><use href="#i-search"/></svg>ค้นหาร้าน กรูมมิ่ง โรงแรมสัตว์…</div>
+            <div class="filter-chips">
+              <span class="chip is-active">ใกล้ฉัน</span>
+              <span class="chip">กรูมมิ่ง</span>
+              <span class="chip">โรงแรม</span>
+              <span class="chip">เปิดตอนนี้</span>
+            </div>
+
+            <div class="map-box">
+              <svg class="map-svg" viewBox="0 0 400 150" aria-hidden="true">
+                <rect width="400" height="150" rx="14" fill="var(--brand-soft)"/>
+                <circle cx="70" cy="115" r="34" fill="var(--brand)" opacity="0.12"/>
+                <circle cx="330" cy="35" r="46" fill="var(--brand)" opacity="0.1"/>
+                <path d="M0 40h400M0 80h400M0 120h400M80 0v150M180 0v150M280 0v150" stroke="var(--border)" stroke-width="1"/>
+                <use href="#i-pin" x="52" y="18" width="24" height="24" fill="var(--accent)"/>
+                <use href="#i-pin" x="228" y="10" width="24" height="24" fill="var(--accent)"/>
+                <use href="#i-pin" x="266" y="82" width="24" height="24" fill="var(--accent)"/>
+                <circle cx="180" cy="90" r="7" fill="var(--brand)" stroke="#fff" stroke-width="3"/>
+              </svg>
+              <span class="map-caption">แผนที่ (ตัวอย่าง) · พบ 24 ร้านในรัศมี 5 กม.</span>
+            </div>
+
+            <div class="block-head" style="margin:16px 0 8px"><h3>ร้านใกล้ฉัน</h3><span class="link">เรียงตามระยะทาง ▾</span></div>
+            <ul class="shop-list">
+              <li>
+                <div class="shop-main"><strong>แฮปปี้เพ็ท โกรมมิ่ง · อารีย์</strong><span class="shop-dist">0.8 กม.</span></div>
+                <p class="shop-tags">กรูมมิ่ง <span class="tag tag-positive">เคยใช้บริการ</span></p>
+                <div class="shop-meta"><span>★ 4.9 · 212 รีวิว</span><span>เปิดถึง 20:00</span></div>
+                <div class="shop-actions"><span class="btn btn-primary sm">จองคิว</span><span class="btn btn-ghost sm"><svg class="icon icon-sm"><use href="#i-route"/></svg>เส้นทาง</span></div>
+              </li>
+              <li>
+                <div class="shop-main"><strong>Paw Villa Hotel</strong><span class="shop-dist">1.4 กม.</span></div>
+                <p class="shop-tags">โรงแรม · เดย์แคร์ <span class="tag tag-pending">ใช้ Pet ID เดิมได้</span></p>
+                <div class="shop-meta"><span>★ 4.7 · 88 รีวิว</span></div>
+                <div class="shop-actions"><span class="btn btn-primary sm">จองคิว</span><span class="btn btn-ghost sm"><svg class="icon icon-sm"><use href="#i-route"/></svg>เส้นทาง</span></div>
+              </li>
+              <li>
+                <div class="shop-main"><strong>มินท์เพ็ทสปา</strong><span class="shop-dist">2.1 กม.</span></div>
+                <p class="shop-tags">กรูมมิ่ง · สปาสุนัข</p>
+                <div class="shop-meta"><span>★ 4.8 · 141 รีวิว</span><span>คิวว่างวันนี้</span></div>
+                <div class="shop-actions"><span class="btn btn-primary sm">จองคิว</span><span class="btn btn-ghost sm"><svg class="icon icon-sm"><use href="#i-route"/></svg>เส้นทาง</span></div>
+              </li>
+            </ul>
+            <p class="preview-note">จองร้านใหม่ที่เพิ่งค้นเจอไม่ต้องกรอกประวัติซ้ำ — ร้านบน PetCare Network เห็นเฉพาะข้อมูลที่คุณอนุญาตไว้ในแท็บ "สิทธิ์"</p>
+          </div>
+
+          <div class="portal-panel panel-history">
+            <ul class="timeline">
+              <li><span class="tl-dot"></span>
+                <div class="tl-content">
+                  <div class="tl-head"><strong>อาบน้ำ + ตัดขน</strong><span>25 ส.ค. 2569</span></div>
+                  <p>ที่ แฮปปี้เพ็ท โกรมมิ่ง — พฤติกรรมนิ่งมาก ตัดขนทรงมาตรฐาน</p>
+                  <div class="photo-row"><span class="photo-thumb"><svg class="icon"><use href="#i-image"/></svg></span><span class="photo-thumb"><svg class="icon"><use href="#i-image"/></svg></span></div>
+                </div>
+              </li>
+              <li><span class="tl-dot"></span>
+                <div class="tl-content">
+                  <div class="tl-head"><strong>อาบน้ำ</strong><span>28 ก.ค. 2569</span></div>
+                  <p>ที่ แฮปปี้เพ็ท โกรมมิ่ง — ใช้แชมพูสูตรไม่มีน้ำหอมตามประวัติแพ้</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="portal-panel panel-appt">
+            <div class="reminder-card">
+              <svg class="icon icon-lg"><use href="#i-bell"/></svg>
+              <div>
+                <strong>แจ้งเตือนวัคซีน</strong>
+                <p>น้องมะลิครบกำหนดฉีดวัคซีนพิษสุนัขบ้าเข็มถัดไป <strong>2 กันยายน 2569</strong> (อีก 8 วัน)</p>
+                <span class="btn btn-accent sm">จองคิวฉีดวัคซีน</span>
+              </div>
+            </div>
+            <div class="appt-topline">
+              <div><strong>2 นัดกำลังจะถึง</strong></div>
+              <label for="po-modal-toggle" class="btn btn-accent sm"><svg class="icon icon-sm"><use href="#i-plus"/></svg>จองใหม่</label>
+            </div>
+            <div class="appt-card is-confirmed">
+              <div class="appt-head"><span>เสาร์ 30 ส.ค. · 10:00–12:00</span><span class="badge badge-positive">ยืนยันแล้ว</span></div>
+              <strong class="appt-service">อาบน้ำ + ตัดขน</strong>
+              <ul class="appt-info">
+                <li><span>สัตว์เลี้ยง</span>น้องมะลิ</li>
+                <li><span>ร้าน</span>แฮปปี้เพ็ท โกรมมิ่ง · อารีย์</li>
+                <li><span>ราคาประมาณ</span>฿450</li>
+              </ul>
+              <div class="appt-actions">
+                <span class="btn btn-primary sm">แสดง QR เช็คอิน</span>
+                <span class="btn btn-ghost sm"><svg class="icon icon-sm"><use href="#i-route"/></svg>เส้นทาง</span>
+                <span class="btn btn-ghost sm">เลื่อนนัด</span>
+                <span class="btn btn-ghost sm">ยกเลิก</span>
+              </div>
+            </div>
+            <div class="appt-card is-pending">
+              <div class="appt-head"><span>อาทิตย์ 7 ก.ย. · 13:00</span><span class="badge badge-pending">รอร้านยืนยัน</span></div>
+              <strong class="appt-service">พักโรงแรม 2 คืน</strong>
+              <p class="appt-pending-note">ร้านขอดูประวัติวัคซีนก่อนยืนยัน — คำขออยู่ในแท็บ <label for="wtab-access" class="inline-link">สิทธิ์</label></p>
+            </div>
+            <div class="block-head" style="margin-top:18px"><h3>เคยจองผ่านมา</h3></div>
+            <ul class="rebook-list">
+              <li><div><strong>สปาสนุบไพร</strong><span>ครั้งล่าสุด 12 ก.ค. · ฿1,250</span></div><span class="btn btn-ghost sm">จองซ้ำ</span></li>
+              <li><div><strong>ตัดเล็บ</strong><span>ครั้งล่าสุด 3 พ.ค. · ฿220</span></div><span class="btn btn-ghost sm">จองซ้ำ</span></li>
+            </ul>
+          </div>
+
+          <div class="portal-panel panel-access">
+            <p class="access-sub">น้องมะลิ · PET-8841 — คุณเป็นผู้ตัดสินใจว่าร้านไหนเห็นข้อมูลอะไร</p>
+            <div class="qr-access-card">
+              <svg class="icon icon-lg"><use href="#i-shield"/></svg>
+              <div><strong>ให้ร้านสแกนเพื่อเช็คอิน</strong><p>QR ใช้ได้ 10 นาที และให้สิทธิ์เฉพาะหมวดที่เปิดไว้ด้านล่างเท่านั้น</p></div>
+              <span class="countdown">09:42</span>
+            </div>
+
+            <h3 class="access-h">ข้อมูลที่แชร์ได้</h3>
+            <ul class="toggle-list">
+              <li><div><strong>สุขภาพ &amp; วัคซีน</strong><span>จำเป็นสำหรับโรงแรม/เดย์แคร์</span></div><label class="switch"><input type="checkbox" checked disabled><span class="switch-track"></span></label></li>
+              <li><div><strong>แพ้ / ข้อจำกัดอาหาร</strong><span>แนะนำให้เปิดเสมอ</span></div><label class="switch"><input type="checkbox" checked disabled><span class="switch-track"></span></label></li>
+              <li><div><strong>ประวัติบริการจากร้านอื่น</strong><span>ช่วยให้ร้านใหม่ดูแลได้ตรงขึ้น</span></div><label class="switch"><input type="checkbox" checked disabled><span class="switch-track"></span></label></li>
+              <li><div><strong>เบอร์ติดต่อฉุกเฉิน</strong><span>เปิดเฉพาะกรณีจำเป็น</span></div><label class="switch"><input type="checkbox" disabled><span class="switch-track"></span></label></li>
+            </ul>
+
+            <h3 class="access-h">ร้านที่เคยได้รับสิทธิ์</h3>
+            <ul class="grant-list">
+              <li><div><strong>แฮปปี้เพ็ท โกรมมิ่ง</strong><span>ใช้บริการแล้ว 14 ครั้ง</span></div><span class="btn btn-ghost sm">ถอนสิทธิ์</span></li>
+              <li><div><strong>Paw Villa Hotel</strong><span>สิทธิ์ชั่วคราว · หมดอายุ 30 ก.ย. 2569</span></div><span class="tag tag-pending">ชั่วคราว</span></li>
+              <li class="grant-pending">
+                <div><strong>มินท์เพ็ทสปา</strong><span>ขอดูประวัติวัคซีน — คำขอเมื่อ 10 นาทีก่อน (ก่อนเข้าพักวันเสาร์)</span></div>
+                <div class="grant-actions"><span class="btn btn-primary sm">อนุญาต 30 วัน</span><span class="btn btn-ghost sm">ปฏิเสธ</span></div>
+              </li>
+            </ul>
+
+            <h3 class="access-h">ประวัติการเข้าถึงล่าสุด</h3>
+            <ul class="access-log">
+              <li><span>แฮปปี้เพ็ท โกรมมิ่ง เปิดดูวัคซีน</span><span class="log-time">วันนี้ 08:12</span></li>
+              <li><span>Paw Villa Hotel บันทึก Care Note</span><span class="log-time">28 พ.ค. 14:30</span></li>
+            </ul>
+            <p class="preview-note">บันทึกทุกครั้งที่มีการเข้าถึงข้อมูล ตามหลัก PDPA — ถอนสิทธิ์ได้ทุกเมื่อ</p>
+          </div>
+        </div>
+       </div>
+       </div>
+
+       <div class="modal-overlay">
+          <label for="po-modal-toggle" class="modal-backdrop"></label>
+          <div class="modal-card">
+            <div class="modal-head"><h3>จองคิวใหม่</h3><label for="po-modal-toggle" class="modal-close"><svg class="icon"><use href="#i-x"/></svg></label></div>
+            <div class="modal-body">
+              <label class="field"><span>สัตว์เลี้ยง</span><div class="fake-input">น้องมะลิ · พุดเดิ้ล<svg class="icon icon-sm"><use href="#i-chevron"/></svg></div></label>
+              <label class="field"><span>ร้าน</span><div class="fake-input">แฮปปี้เพ็ท โกรมมิ่ง · อารีย์ (เคยใช้บริการ)<svg class="icon icon-sm"><use href="#i-chevron"/></svg></div></label>
+              <label class="field"><span>บริการ</span><div class="fake-input">อาบน้ำ + ตัดขน (60 นาที) · ฿450<svg class="icon icon-sm"><use href="#i-chevron"/></svg></div></label>
+              <div class="field-row">
+                <label class="field"><span>วันที่</span><div class="fake-input">6 ก.ย. 2569</div></label>
+                <label class="field"><span>เวลา</span><div class="fake-input">10:00</div></label>
+              </div>
+              <p class="modal-hint"><svg class="icon icon-sm"><use href="#i-bell"/></svg>ไม่ต้องกรอกประวัติสัตว์ซ้ำ — ร้านนี้มี Pet ID ของน้องมะลิอยู่แล้ว</p>
+            </div>
+            <div class="modal-foot">
+              <label for="po-modal-toggle" class="btn btn-ghost">ยกเลิก</label>
+              <span class="btn btn-accent">ยืนยันการจอง</span>
+            </div>
+          </div>
+       </div>
+      </div>
+
+    </div>
+    </div>
+
+    <div class="rationale">
+      <div class="rationale-owner">
+        <h4>ทำไมถึงออกแบบแบบนี้</h4>
+        <ul><li>เมนูเรียงตามลำดับงานในหนึ่งวัน จากเปิดร้านถึงปิดยอด ไม่ใช่ตามหมวดหมู่ฟีเจอร์</li><li>"ติดตามลูกค้า" และ "สาขา &amp; Directory" เป็น Preview ของ Phase 2-3 — แสดงทิศทางให้เห็น แต่ยังไม่อยู่ในขอบเขต MVP ที่อนุมัติ</li></ul>
+      </div>
+      <div class="rationale-staff">
+        <h4>ทำไมถึงออกแบบแบบนี้</h4>
+        <ul><li>หน้า Landing คือ "คิววันนี้" ไม่ใช่ตัวเลข Dashboard — ลดการตัดสินใจตอนเปิดงานตอนเช้า</li><li>เมนูเหลือ 3 อย่างเท่านั้น เพราะงานหลักหน้าร้านคือดูแลคิว</li><li>Care Notes และรูปถ่ายทำได้จากการ์ดเดียว ไม่ต้องเปลี่ยนหน้าไปมา</li></ul>
+      </div>
+      <div class="rationale-petowner">
+        <h4>ทำไมถึงออกแบบแบบนี้</h4>
+        <ul><li>แยกพอร์ทัลจาก Dashboard ร้านโดยสิ้นเชิง เพราะเป็นคนละกลุ่มผู้ใช้</li><li>แท็บ "สิทธิ์" คือหน้าที่ทำให้การแชร์ข้อมูลข้ามร้านเป็นเรื่องที่เจ้าของสัตว์ยอมรับได้ — เปิด/ปิดรายหมวด และถอนสิทธิ์ได้ทุกเมื่อ</li><li>นัดหมายที่รออนุมัติจะโยงกลับไปหน้าสิทธิ์ ให้เห็นว่าทำไมร้านถึงยังไม่ยืนยัน</li></ul>
+      </div>
+    </div>
+  </div>
+
+  <footer class="page-foot">
+    <p>อัปเดต: ปรับจานสีและตัวอักษรตาม Design System ที่ CEO ส่งมา (เขียวมอสส์ #4E7A5C · โรสอิฐ #C2766F ใช้จำกัดเฉพาะจุดที่ต้องลงมือทำ · เหลืองอำพัน #FBF1DE สำหรับสถานะรอยืนยัน · IBM Plex Sans Thai + IBM Plex Mono) หน้า "ติดตามลูกค้า" และ "สาขา &amp; Directory" เป็น Preview ของ Phase 2-3 ที่ยังไม่ได้รับอนุมัติเข้า MVP ส่วนแท็บ "สิทธิ์" และการจองด้วยตนเองของเจ้าของสัตว์อยู่ในขอบเขตที่อนุมัติแล้ว ข้อมูลทั้งหมดเป็นตัวอย่างสมมติ</p>
+  </footer>
+
+</div>
+
+<style>
+:root{
+  --bg:#F7F2E6;
+  --surface:#FFFFFF;
+  --surface-alt:#F1EAD9;
+  --border:#E3D8C1;
+  --text:#26221D;
+  --text-muted:#6E6656;
+  --text-faint:#98907D;
+  --brand:#4E7A5C;
+  --brand-strong:#3A5D45;
+  --brand-soft:#E3EAE1;
+  --accent:#C2766F;
+  --accent-strong:#A9615A;
+  --accent-contrast:#FFFFFF;
+  --pending-bg:#FBF1DE; --pending-fg:#8A6A2E; --pending-dot:#D9A94E;
+  --neutral-bg:#EFE8D7; --neutral-fg:#7C7462; --neutral-dot:#A99E8A;
+  --sidebar-bg:#3A5D45; --sidebar-fg:#D6E3D9; --sidebar-fg-hover:#FFFFFF;
+  --sidebar-active-bg:#F1F6F1; --sidebar-active-fg:#3A5D45;
+  --sidebar-brand:#FFFFFF; --sidebar-muted:#AFC7B7;
+  --shadow-sm:0 1px 2px rgba(40,32,18,0.08);
+  --shadow-md:0 8px 22px rgba(40,32,18,0.12);
+  --radius-sm:8px; --radius-md:12px; --radius-lg:18px;
+  --font-display:'IBM Plex Sans Thai', 'Noto Sans Thai', sans-serif;
+  --font-body:'IBM Plex Sans Thai', 'Noto Sans Thai', sans-serif;
+  --font-mono:'IBM Plex Mono','IBM Plex Sans Thai', monospace;
+}
+
+*{box-sizing:border-box;}
+html{-webkit-text-size-adjust:100%;}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--font-body);}
+@media (prefers-reduced-motion: reduce){*{transition:none !important; animation:none !important;}}
+
+.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;}
+
+.page{max-width:1180px;margin:0 auto;padding:48px 24px 40px;}
+
+.intro{max-width:700px;margin-bottom:26px;}
+.eyebrow{font-family:var(--font-body);font-weight:600;font-size:0.78rem;letter-spacing:0.09em;color:var(--brand);text-transform:uppercase;margin:0 0 12px;}
+.intro h1{font-family:var(--font-display);font-weight:700;font-size:clamp(1.9rem,3.6vw,2.7rem);line-height:1.15;margin:0 0 14px;text-wrap:balance;color:var(--text);}
+.lede{font-size:1.02rem;line-height:1.65;color:var(--text-muted);margin:0 0 20px;}
+.meta-row{display:flex;gap:28px;flex-wrap:wrap;}
+.meta-row div{display:flex;flex-direction:column;gap:2px;}
+.meta-row strong{font-family:var(--font-mono);font-size:1.3rem;font-weight:600;color:var(--brand-strong);}
+.meta-row strong.accentnum{font-size:1rem;}
+.meta-row span{font-size:0.76rem;color:var(--text-faint);}
+
+.role-tabs{display:flex;gap:6px;margin-bottom:16px;flex-wrap:wrap;}
+.role-tab{display:inline-flex;align-items:center;gap:8px;padding:10px 18px;border-radius:999px;background:var(--surface);border:1px solid var(--border);color:var(--text-muted);font-weight:600;font-size:0.92rem;cursor:pointer;transition:background .15s,color .15s,border-color .15s;user-select:none;}
+.role-tab:hover{border-color:var(--brand);color:var(--brand-strong);}
+#role-owner:checked ~ .role-tabs label[for="role-owner"],
+#role-staff:checked ~ .role-tabs label[for="role-staff"],
+#role-petowner:checked ~ .role-tabs label[for="role-petowner"]{background:var(--brand);border-color:var(--brand);color:#fff;}
+.role-tab .icon{width:16px;height:16px;}
+
+.frame-scroll{overflow-x:auto;border-radius:var(--radius-lg);}
+.frame{position:relative;min-width:760px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);box-shadow:var(--shadow-md);overflow:hidden;min-height:600px;}
+
+.panel{display:none;}
+#role-owner:checked ~ .frame-scroll .panel-owner{display:grid;grid-template-columns:220px 1fr;}
+#role-staff:checked ~ .frame-scroll .panel-staff{display:grid;grid-template-columns:220px 1fr;}
+#role-petowner:checked ~ .frame-scroll .panel-petowner{display:block;}
+.panel-owner,.panel-staff{position:relative;}
+
+.sidebar{background:var(--sidebar-bg);color:var(--sidebar-fg);padding:20px 14px;display:flex;flex-direction:column;gap:22px;}
+.shop-badge{display:flex;align-items:center;gap:10px;padding:0 6px;}
+.shop-badge .icon-lg{width:30px;height:30px;color:var(--sidebar-brand);flex-shrink:0;}
+.shop-badge div{display:flex;flex-direction:column;line-height:1.3;}
+.shop-badge strong{font-family:var(--font-display);font-size:0.94rem;color:var(--sidebar-brand);}
+.shop-badge span{font-size:0.74rem;color:var(--sidebar-muted);}
+.side-nav{display:flex;flex-direction:column;gap:2px;}
+.side-link{display:flex;align-items:center;gap:11px;padding:10px 12px;border-radius:var(--radius-sm);color:var(--sidebar-fg);font-size:0.88rem;font-weight:500;cursor:pointer;transition:background .15s,color .15s;}
+.side-link .icon{width:18px;height:18px;flex-shrink:0;}
+.side-link:hover{background:rgba(255,255,255,0.1);color:var(--sidebar-fg-hover);}
+.side-badge{margin-inline-start:auto;background:var(--accent);color:#fff;font-size:0.68rem;font-weight:700;padding:1px 6px;border-radius:999px;font-family:var(--font-mono);}
+#op-home:checked ~ .sidebar label[for="op-home"],
+#op-checkin:checked ~ .sidebar label[for="op-checkin"],
+#op-calendar:checked ~ .sidebar label[for="op-calendar"],
+#op-crm:checked ~ .sidebar label[for="op-crm"],
+#op-followup:checked ~ .sidebar label[for="op-followup"],
+#op-branches:checked ~ .sidebar label[for="op-branches"],
+#op-reports:checked ~ .sidebar label[for="op-reports"],
+#op-staff:checked ~ .sidebar label[for="op-staff"],
+#op-settings:checked ~ .sidebar label[for="op-settings"],
+#sp-queue:checked ~ .sidebar label[for="sp-queue"],
+#sp-calendar:checked ~ .sidebar label[for="sp-calendar"],
+#sp-crm:checked ~ .sidebar label[for="sp-crm"]{background:var(--sidebar-active-bg);color:var(--sidebar-active-fg);font-weight:600;}
+
+.content{padding:24px 28px 32px;overflow:auto;}
+.page-panel{display:none;}
+#op-home:checked ~ .content .page-home,
+#op-checkin:checked ~ .content .page-checkin,
+#op-calendar:checked ~ .content .page-calendar,
+#op-crm:checked ~ .content .page-crm,
+#op-followup:checked ~ .content .page-followup,
+#op-branches:checked ~ .content .page-branches,
+#op-reports:checked ~ .content .page-reports,
+#op-staff:checked ~ .content .page-staff,
+#op-settings:checked ~ .content .page-settings,
+#sp-queue:checked ~ .content .page-queue,
+#sp-calendar:checked ~ .content .page-calendar,
+#sp-crm:checked ~ .content .page-crm{display:block;}
+
+.preview-banner{background:var(--pending-bg);color:var(--pending-fg);font-size:0.78rem;font-weight:600;padding:8px 14px;border-radius:var(--radius-sm);margin-bottom:16px;}
+.preview-note{font-size:0.78rem;color:var(--text-faint);line-height:1.6;}
+.badge-preview{background:var(--pending-bg);color:var(--pending-fg);}
+
+.topbar{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:22px;flex-wrap:wrap;}
+.topbar h2{font-family:var(--font-display);font-size:1.5rem;margin:0 0 4px;}
+.date{margin:0;color:var(--text-faint);font-size:0.88rem;}
+.who{display:flex;align-items:center;gap:8px;font-size:0.86rem;color:var(--text-muted);font-weight:500;}
+.avatar{width:30px;height:30px;border-radius:50%;background:var(--brand-soft);color:var(--brand-strong);display:inline-flex;align-items:center;justify-content:center;font-size:0.76rem;font-weight:700;flex-shrink:0;}
+
+.stat-row{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:22px;}
+.stat-card{background:var(--surface-alt);border:1px solid var(--border);border-radius:var(--radius-md);padding:16px 18px;display:flex;flex-direction:column;gap:6px;}
+.stat-label{font-size:0.8rem;color:var(--text-muted);font-weight:500;}
+.stat-value{font-family:var(--font-mono);font-size:1.5rem;font-weight:600;}
+.stat-value.accent{color:var(--accent-strong);}
+.stat-trend{font-size:0.78rem;color:var(--text-faint);}
+.stat-trend.up{color:var(--brand-strong);}
+
+.two-col{display:grid;grid-template-columns:1.5fr 1fr;gap:16px;}
+.panel-block{background:var(--surface-alt);border:1px solid var(--border);border-radius:var(--radius-md);padding:16px 18px;}
+.panel-block h3{font-family:var(--font-display);font-size:1rem;margin:0 0 12px;}
+.block-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;}
+.block-head h3{margin:0;}
+.link{font-size:0.82rem;color:var(--brand);font-weight:600;cursor:pointer;}
+
+.mini-queue{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:9px;}
+.mini-queue li{display:flex;align-items:center;gap:10px;font-size:0.86rem;padding:8px 0;border-bottom:1px solid var(--border);}
+.mini-queue li:last-child{border-bottom:none;}
+.dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;display:inline-block;}
+.dot-positive{background:var(--brand);} .dot-neutral{background:var(--neutral-dot);} .dot-pending{background:var(--pending-dot);}
+.time{font-variant-numeric:tabular-nums;font-family:var(--font-mono);color:var(--text-faint);width:44px;flex-shrink:0;}
+.who-name{flex:1;color:var(--text);}
+
+.activity-feed{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:14px;}
+.activity-feed li{display:flex;gap:10px;font-size:0.84rem;}
+.activity-feed .icon-sm{color:var(--accent);margin-top:2px;flex-shrink:0;}
+.activity-feed div{display:flex;flex-direction:column;line-height:1.5;color:var(--text-muted);}
+.activity-feed span{font-size:0.74rem;color:var(--text-faint);}
+.activity-feed .accent-text{color:var(--accent-strong);font-weight:600;}
+
+.badge{display:inline-flex;align-items:center;padding:3px 10px;border-radius:999px;font-size:0.74rem;font-weight:700;white-space:nowrap;}
+.badge-neutral{background:var(--neutral-bg);color:var(--neutral-fg);}
+.badge-positive{background:var(--brand-soft);color:var(--brand-strong);}
+.badge-pending{background:var(--pending-bg);color:var(--pending-fg);}
+.badge.role-owner{background:var(--brand-soft);color:var(--brand-strong);}
+.badge.role-staff{background:var(--neutral-bg);color:var(--neutral-fg);}
+.tag{display:inline-flex;align-items:center;padding:2px 9px;border-radius:6px;font-size:0.72rem;font-weight:600;}
+.tag-warn{background:var(--accent);color:#fff;}
+.tag-new{background:var(--neutral-bg);color:var(--neutral-fg);margin-inline-start:6px;}
+.tag-positive{background:var(--brand-soft);color:var(--brand-strong);}
+.tag-pending{background:var(--pending-bg);color:var(--pending-fg);}
+.tag-urgent{background:var(--accent);color:#fff;}
+.tag-soon{display:inline-block;margin-top:8px;background:var(--pending-bg);color:var(--pending-fg);}
+
+.btn{display:inline-flex;align-items:center;gap:7px;padding:9px 18px;border-radius:999px;font-size:0.86rem;font-weight:700;cursor:pointer;border:none;user-select:none;transition:transform .1s, box-shadow .15s, opacity .15s;}
+.btn.sm{padding:6px 13px;font-size:0.78rem;}
+.btn:active{transform:scale(0.97);}
+.btn-accent{background:var(--accent);color:var(--accent-contrast);box-shadow:var(--shadow-sm);}
+.btn-accent:hover{background:var(--accent-strong);}
+.btn-primary{background:var(--brand);color:#fff;}
+.btn-primary.sm{width:auto;}
+.action-row .btn-primary{width:100%;justify-content:center;}
+.btn-ghost{background:transparent;color:var(--text-muted);border:1px solid var(--border);}
+.btn[disabled]{cursor:default;}
+
+.queue-list{display:flex;flex-direction:column;gap:10px;}
+.booking-card{background:var(--surface-alt);border:1px solid var(--border);border-radius:var(--radius-md);overflow:hidden;}
+.booking-card summary{list-style:none;display:flex;align-items:center;gap:14px;padding:13px 16px;cursor:pointer;font-size:0.9rem;}
+.booking-card summary::-webkit-details-marker{display:none;}
+.booking-card .b-time{display:flex;align-items:center;gap:5px;color:var(--text-faint);font-family:var(--font-mono);width:76px;flex-shrink:0;}
+.booking-card .b-pet{font-weight:700;flex:0 0 auto;}
+.booking-card .b-pet em{font-style:normal;font-weight:400;color:var(--text-faint);margin-inline-start:5px;}
+.booking-card .b-service{color:var(--text-muted);flex:1;}
+.booking-card .chev{width:16px;height:16px;color:var(--text-faint);transition:transform .15s;flex-shrink:0;}
+.booking-card[open] .chev{transform:rotate(180deg);}
+.card-detail{padding:14px 16px 16px 16px;border-top:1px solid var(--border);display:flex;flex-direction:column;gap:12px;font-size:0.85rem;}
+.detail-row strong{font-weight:700;}
+.pending-note{background:var(--pending-bg);color:var(--pending-fg);padding:8px 10px;border-radius:var(--radius-sm);font-size:0.78rem;}
+.note-list{list-style:none;margin:6px 0 0;padding:0;display:flex;flex-direction:column;gap:5px;}
+.note-list li{color:var(--text-muted);}
+.note-list span{font-family:var(--font-mono);color:var(--text-faint);margin-inline-end:8px;}
+.note-list.full{margin:0;}
+.note-input{margin-top:6px;padding:8px 12px;border:1px dashed var(--border);border-radius:var(--radius-sm);color:var(--text-faint);font-size:0.82rem;}
+.photo-row{display:flex;gap:8px;}
+.photo-thumb{width:52px;height:52px;border-radius:var(--radius-sm);background:var(--surface);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;color:var(--text-faint);flex-shrink:0;}
+.photo-thumb.add{width:auto;flex-direction:column;gap:2px;font-size:0.68rem;padding:0 10px;color:var(--brand);border-color:var(--brand);}
+.action-row{margin-top:2px;}
+
+.modal-overlay{display:none;position:fixed;inset:0;z-index:20;align-items:center;justify-content:center;}
+#op-modal-toggle:checked ~ .modal-overlay{display:flex;}
+#sp-modal-toggle:checked ~ .modal-overlay{display:flex;}
+#po-modal-toggle:checked ~ .modal-overlay{display:flex;}
+#po-modal-toggle-mobile:checked ~ .modal-overlay{display:flex;}
+.modal-backdrop{position:absolute;inset:0;background:rgba(30,24,14,0.45);cursor:pointer;}
+.modal-card{position:relative;background:var(--surface);border-radius:var(--radius-lg);box-shadow:var(--shadow-md);width:min(420px,88%);padding:20px 22px 22px;display:flex;flex-direction:column;gap:14px;}
+.modal-head{display:flex;justify-content:space-between;align-items:center;}
+.modal-head h3{font-family:var(--font-display);margin:0;font-size:1.1rem;}
+.modal-close{cursor:pointer;color:var(--text-faint);display:flex;}
+.modal-body{display:flex;flex-direction:column;gap:12px;}
+.field{display:flex;flex-direction:column;gap:5px;font-size:0.8rem;color:var(--text-muted);font-weight:600;}
+.field-row{display:flex;gap:10px;}
+.field-row .field{flex:1;}
+.fake-input{display:flex;align-items:center;gap:8px;justify-content:space-between;padding:10px 12px;border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text-faint);font-weight:400;font-size:0.86rem;background:var(--surface-alt);}
+.modal-hint{display:flex;align-items:center;gap:7px;margin:0;font-size:0.78rem;color:var(--brand-strong);}
+.modal-foot{display:flex;justify-content:flex-end;gap:10px;}
+
+/* calendar */
+.cal-controls{display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
+.chip-revenue{background:var(--brand-soft);color:var(--brand-strong);font-family:var(--font-mono);font-size:0.76rem;font-weight:600;padding:6px 12px;border-radius:999px;}
+.cal-legend{display:flex;gap:16px;margin-bottom:12px;font-size:0.78rem;color:var(--text-muted);flex-wrap:wrap;}
+.cal-legend span{display:inline-flex;align-items:center;gap:6px;}
+.cal-legend .dot{width:7px;height:7px;}
+.cal-scroll{overflow-x:auto;border:1px solid var(--border);border-radius:var(--radius-md);}
+.cal-grid{position:relative;display:grid;grid-template-columns:56px repeat(7,minmax(96px,1fr));grid-template-rows:34px repeat(9,44px);min-width:750px;}
+.cal-grid.cal-grid-staff{grid-template-columns:64px repeat(2,minmax(220px,1fr));grid-template-rows:50px repeat(9,44px);min-width:520px;}
+.cal-corner{grid-column:1;grid-row:1;background:var(--surface-alt);border-bottom:1px solid var(--border);}
+.cal-day-head{grid-row:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;background:var(--surface-alt);border-bottom:1px solid var(--border);border-left:1px solid var(--border);font-size:0.8rem;font-weight:600;color:var(--text-muted);padding:6px 4px;}
+.cal-day-head strong{font-family:var(--font-display);font-size:0.86rem;color:var(--text);}
+.cal-day-head em{font-style:normal;font-size:0.7rem;color:var(--text-faint);font-weight:400;}
+.cal-day-head.is-closed{color:var(--text-faint);}
+.cal-hour{grid-column:1;display:flex;align-items:flex-start;justify-content:flex-end;padding:4px 8px 0 0;font-size:0.72rem;font-family:var(--font-mono);color:var(--text-faint);border-top:1px solid var(--border);}
+.cal-col-bg{grid-row:2/11;border-left:1px solid var(--border);background-image:repeating-linear-gradient(to bottom, transparent 0 43px, var(--border) 43px 44px);}
+.cal-event{margin:2px 3px;padding:4px 6px;border-radius:6px;font-size:0.68rem;line-height:1.3;overflow:hidden;border-left:3px solid; align-self:start;}
+.cal-event.neutral{background:var(--neutral-bg);color:var(--neutral-fg);border-color:var(--neutral-dot);}
+.cal-event.positive{background:var(--brand-soft);color:var(--brand-strong);border-color:var(--brand);}
+.cal-event.pending{background:var(--pending-bg);color:var(--pending-fg);border-color:var(--pending-dot);}
+.cal-event.slot-open{background:transparent;border:1px dashed var(--border);color:var(--text-faint);text-align:center;font-weight:600;}
+.cal-tag{display:inline-block;margin-inline-start:5px;background:var(--pending-dot);color:#fff;font-size:0.6rem;font-weight:700;padding:1px 5px;border-radius:4px;vertical-align:middle;}
+.cal-closed{display:flex;align-items:center;justify-content:center;writing-mode:vertical-rl;text-orientation:mixed;color:var(--text-faint);font-size:0.76rem;background:var(--surface-alt);}
+
+/* CRM */
+.crm-layout{display:grid;grid-template-columns:230px 1fr;gap:16px;align-items:start;}
+.crm-list{display:flex;flex-direction:column;gap:10px;}
+.search-bar{cursor:text;}
+.customer-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px;}
+.cust-row{display:flex;align-items:center;gap:10px;padding:9px 8px;border-radius:var(--radius-sm);font-size:0.82rem;border-left:3px solid transparent;}
+.cust-row div{display:flex;flex-direction:column;line-height:1.35;flex:1;min-width:0;}
+.cust-row strong{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.cust-row span{color:var(--text-faint);font-size:0.76rem;}
+.cust-row .last-visit{color:var(--text-faint);font-size:0.74rem;flex:0 0 auto;font-family:var(--font-mono);}
+.cust-row.is-active{background:var(--brand-soft);border-left-color:var(--brand);}
+.cust-row.is-active strong{color:var(--brand-strong);}
+.list-hint{font-size:0.74rem;color:var(--text-faint);line-height:1.5;margin:2px 2px 0;}
+
+.crm-detail{background:var(--surface-alt);border:1px solid var(--border);border-radius:var(--radius-md);padding:18px 20px;}
+.pet-hero{display:flex;gap:14px;align-items:center;margin-bottom:16px;}
+.pet-hero.small .pet-photo{width:52px;height:52px;}
+.pet-hero.small .pet-photo .icon-lg{width:24px;height:24px;}
+.pet-photo{width:76px;height:76px;border-radius:50%;background:var(--brand-soft);display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.pet-photo .icon-xl{width:38px;height:38px;color:var(--brand-strong);}
+.pet-photo .icon-lg{color:var(--brand-strong);}
+.pet-info{flex:1;min-width:0;}
+.pet-info h3{font-family:var(--font-display);margin:0 0 3px;font-size:1.25rem;}
+.pet-hero.small .pet-info h3{font-size:1.05rem;}
+.pet-info p{margin:0 0 6px;color:var(--text-muted);font-size:0.88rem;}
+.qr-mini{font-family:var(--font-mono);font-size:0.76rem;color:var(--text-faint);background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:4px 9px;white-space:nowrap;}
+
+.pill-tabs{display:flex;gap:6px;margin-bottom:14px;flex-wrap:wrap;}
+.pill-tab{padding:7px 14px;border-radius:999px;background:var(--surface);border:1px solid var(--border);color:var(--text-muted);font-size:0.8rem;font-weight:600;cursor:pointer;}
+#op-pt-general:checked ~ .pill-tabs label[for="op-pt-general"],
+#op-pt-history:checked ~ .pill-tabs label[for="op-pt-history"],
+#op-pt-notes:checked ~ .pill-tabs label[for="op-pt-notes"],
+#op-pt-photos:checked ~ .pill-tabs label[for="op-pt-photos"],
+#sp-pt-general:checked ~ .pill-tabs label[for="sp-pt-general"],
+#sp-pt-history:checked ~ .pill-tabs label[for="sp-pt-history"],
+#sp-pt-notes:checked ~ .pill-tabs label[for="sp-pt-notes"],
+#sp-pt-photos:checked ~ .pill-tabs label[for="sp-pt-photos"]{background:var(--brand);border-color:var(--brand);color:#fff;}
+
+.pill-panel{display:none;}
+#op-pt-general:checked ~ .pill-panel.pp-general,#sp-pt-general:checked ~ .pill-panel.pp-general{display:block;}
+#op-pt-history:checked ~ .pill-panel.pp-history,#sp-pt-history:checked ~ .pill-panel.pp-history{display:block;}
+#op-pt-notes:checked ~ .pill-panel.pp-notes,#sp-pt-notes:checked ~ .pill-panel.pp-notes{display:block;}
+#op-pt-photos:checked ~ .pill-panel.pp-photos,#sp-pt-photos:checked ~ .pill-panel.pp-photos{display:block;}
+
+.kv-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:12px 20px;}
+.kv-list li{display:flex;flex-direction:column;gap:2px;font-size:0.84rem;}
+.kv-list span{color:var(--text-faint);font-size:0.74rem;}
+
+.svc-table{width:100%;border-collapse:collapse;font-size:0.84rem;}
+.svc-table th{text-align:left;color:var(--text-faint);font-weight:600;font-size:0.74rem;padding:0 10px 8px;border-bottom:1px solid var(--border);}
+.svc-table td{padding:9px 10px;border-bottom:1px solid var(--border);}
+.svc-table tr:last-child td{border-bottom:none;}
+.svc-table .pay-ok{color:var(--brand-strong);font-weight:600;font-family:var(--font-mono);}
+
+.photo-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(90px,1fr));gap:10px;}
+.photo-thumb.lg{width:100%;height:78px;flex-direction:column;gap:6px;font-size:0.7rem;color:var(--text-faint);}
+.photo-thumb.lg em{font-style:normal;}
+
+/* reports preview */
+.three-col{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:14px;}
+.svc-table .trend-up{color:var(--brand-strong);font-weight:600;font-family:var(--font-mono);}
+.svc-table .trend-down{color:var(--accent-strong);font-weight:600;font-family:var(--font-mono);}
+.summary-block p{margin:0 0 10px;font-size:0.86rem;color:var(--text-muted);line-height:1.6;}
+.chart-bars{display:flex;align-items:flex-end;gap:12px;height:130px;}
+.bar-col{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;}
+.bar{width:100%;max-width:32px;background:var(--brand);border-radius:6px 6px 0 0;}
+.bar-forecast{background:transparent;border:1.5px dashed var(--brand);}
+.bar-col span{margin-top:8px;font-size:0.66rem;color:var(--text-faint);text-align:center;line-height:1.4;font-family:var(--font-mono);}
+.peak-list{list-style:none;margin:0 0 10px;padding:0;display:flex;flex-direction:column;gap:10px;}
+.peak-list li{display:flex;align-items:center;gap:10px;font-size:0.8rem;}
+.peak-list li span{width:110px;flex-shrink:0;color:var(--text-muted);}
+.peak-list li strong{width:36px;text-align:right;font-family:var(--font-mono);flex-shrink:0;}
+.peak-bar{flex:1;height:6px;background:var(--surface);border-radius:999px;overflow:hidden;}
+.peak-bar div{height:100%;background:var(--accent);border-radius:999px;}
+
+/* follow-up preview */
+.followup-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;}
+.followup-list li{display:flex;align-items:center;gap:12px;background:var(--surface-alt);border:1px solid var(--border);border-radius:var(--radius-md);padding:12px 16px;flex-wrap:wrap;}
+.fu-main{flex:1;min-width:180px;display:flex;flex-direction:column;gap:2px;}
+.fu-main span{color:var(--text-faint);font-size:0.78rem;}
+
+/* branches preview */
+.branch-cards{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+.branch-card{background:var(--surface-alt);border:1px solid var(--border);border-radius:var(--radius-md);padding:16px 18px;}
+.branch-card.is-placeholder{border-style:dashed;color:var(--text-faint);}
+.branch-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;}
+.branch-card p{margin:0 0 10px;font-size:0.84rem;color:var(--text-muted);line-height:1.5;}
+.branch-stats{display:flex;gap:16px;font-size:0.78rem;color:var(--text-faint);flex-wrap:wrap;}
+.branch-stats strong{color:var(--text);font-family:var(--font-mono);}
+.toggle-row{display:flex;align-items:center;justify-content:space-between;font-size:0.86rem;font-weight:600;}
+
+/* toggle switch */
+.switch{position:relative;display:inline-block;width:38px;height:22px;flex-shrink:0;}
+.switch input{opacity:0;width:0;height:0;position:absolute;}
+.switch-track{position:absolute;inset:0;background:var(--border);border-radius:999px;transition:background .15s;}
+.switch-track::before{content:"";position:absolute;width:16px;height:16px;left:3px;top:3px;background:#fff;border-radius:50%;transition:transform .15s;box-shadow:var(--shadow-sm);}
+.switch input:checked ~ .switch-track{background:var(--brand);}
+.switch input:checked ~ .switch-track::before{transform:translateX(16px);}
+.switch input:disabled ~ .switch-track{cursor:not-allowed;}
+
+/* staff management */
+.staff-mgmt-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;}
+.staff-mgmt-list li{display:flex;align-items:center;gap:12px;background:var(--surface-alt);border:1px solid var(--border);border-radius:var(--radius-md);padding:12px 16px;}
+.staff-mgmt-list li div{flex:1;display:flex;flex-direction:column;line-height:1.4;}
+.staff-mgmt-list li strong{font-size:0.92rem;}
+.staff-mgmt-list li span{color:var(--text-faint);font-size:0.8rem;}
+
+/* settings */
+.settings-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+.services-block{grid-column:1/-1;}
+.form-line{display:flex;flex-direction:column;gap:5px;margin-bottom:12px;font-size:0.8rem;color:var(--text-muted);font-weight:600;}
+.form-line:last-child{margin-bottom:0;}
+.hours-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:9px;font-size:0.86rem;}
+.hours-list li{display:flex;justify-content:space-between;padding-bottom:9px;border-bottom:1px solid var(--border);}
+.hours-list li:last-child{border-bottom:none;padding-bottom:0;}
+.closed-text{color:var(--text-faint);}
+
+/* pet owner portal */
+.panel-petowner{background:var(--surface-alt);padding:28px 20px 36px;min-height:640px;}
+.po-view-switch{display:flex;justify-content:center;gap:6px;margin-bottom:22px;}
+.po-view-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 16px;border-radius:999px;background:var(--surface);border:1px solid var(--border);color:var(--text-muted);font-size:0.82rem;font-weight:600;cursor:pointer;user-select:none;}
+.po-view-btn:hover{border-color:var(--brand);color:var(--brand-strong);}
+#po-view-mobile:checked ~ .po-view-switch label[for="po-view-mobile"],
+#po-view-web:checked ~ .po-view-switch label[for="po-view-web"]{background:var(--brand);border-color:var(--brand);color:#fff;}
+.po-view-mobile-wrap,.po-view-web-wrap{display:none;}
+#po-view-mobile:checked ~ .po-view-mobile-wrap{display:flex;align-items:flex-start;justify-content:center;}
+#po-view-web:checked ~ .po-view-web-wrap{display:flex;justify-content:center;}
+.web-frame{width:100%;max-width:640px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);overflow:hidden;}
+.phone-frame{position:relative;width:380px;flex-shrink:0;background:var(--surface);border:10px solid #1E1B18;border-radius:44px;box-shadow:var(--shadow-md);overflow:hidden;display:flex;flex-direction:column;}
+.portal-topbar{display:flex;justify-content:space-between;align-items:center;padding:18px 26px;border-bottom:1px solid var(--border);}
+.portal-tabs{display:flex;gap:4px;padding:14px 26px 0;border-bottom:1px solid var(--border);flex-wrap:wrap;}
+.portal-tab{display:inline-flex;align-items:center;gap:7px;padding:10px 16px;font-size:0.86rem;font-weight:600;color:var(--text-faint);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;}
+.portal-tab .icon{width:16px;height:16px;}
+#wtab-pets:checked ~ .portal-tabs label[for="wtab-pets"],
+#wtab-discover:checked ~ .portal-tabs label[for="wtab-discover"],
+#wtab-history:checked ~ .portal-tabs label[for="wtab-history"],
+#wtab-appt:checked ~ .portal-tabs label[for="wtab-appt"],
+#wtab-access:checked ~ .portal-tabs label[for="wtab-access"]{color:var(--brand);border-color:var(--brand);}
+.portal-body{padding:26px;max-width:540px;margin:0 auto;}
+#wtab-pets:checked ~ .portal-body .panel-pets{display:block;}
+#wtab-discover:checked ~ .portal-body .panel-discover{display:block;}
+#wtab-history:checked ~ .portal-body .panel-history{display:block;}
+#wtab-appt:checked ~ .portal-body .panel-appt{display:block;}
+#wtab-access:checked ~ .portal-body .panel-access{display:block;}
+.phone-statusbar{display:flex;align-items:center;justify-content:space-between;padding:10px 24px 2px;flex-shrink:0;font-family:var(--font-mono);font-weight:600;font-size:0.78rem;color:var(--text);}
+.battery{display:inline-flex;align-items:center;gap:2px;}
+.battery-body{width:20px;height:10px;border:1.4px solid var(--text);border-radius:2px;position:relative;display:inline-block;}
+.battery-body::after{content:"";position:absolute;left:1.5px;top:1.5px;bottom:1.5px;width:65%;background:var(--text);border-radius:1px;}
+.battery-nub{width:2px;height:4px;background:var(--text);border-radius:0 2px 2px 0;display:inline-block;}
+.phone-header{display:flex;justify-content:space-between;align-items:center;padding:8px 22px 14px;border-bottom:1px solid var(--border);flex-shrink:0;}
+.portal-brand{display:flex;align-items:center;gap:9px;font-family:var(--font-display);font-weight:600;font-size:0.92rem;color:var(--brand-strong);}
+.phone-body{flex-shrink:0;overflow-y:auto;height:600px;padding:20px 20px 8px;}
+.portal-panel{display:none;}
+#ptab-pets:checked ~ .phone-body .panel-pets{display:block;}
+#ptab-discover:checked ~ .phone-body .panel-discover{display:block;}
+#ptab-history:checked ~ .phone-body .panel-history{display:block;}
+#ptab-appt:checked ~ .phone-body .panel-appt{display:block;}
+#ptab-access:checked ~ .phone-body .panel-access{display:block;}
+.phone-tabbar{display:flex;border-top:1px solid var(--border);flex-shrink:0;background:var(--surface);}
+.phone-tab{flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;padding:10px 2px 4px;color:var(--text-faint);font-size:0.62rem;font-weight:600;cursor:pointer;text-align:center;}
+.phone-tab .icon{width:19px;height:19px;}
+#ptab-pets:checked ~ .phone-tabbar label[for="ptab-pets"],
+#ptab-discover:checked ~ .phone-tabbar label[for="ptab-discover"],
+#ptab-history:checked ~ .phone-tabbar label[for="ptab-history"],
+#ptab-appt:checked ~ .phone-tabbar label[for="ptab-appt"],
+#ptab-access:checked ~ .phone-tabbar label[for="ptab-access"]{color:var(--brand);}
+.phone-home-indicator{width:110px;height:5px;background:var(--text);opacity:0.22;border-radius:999px;margin:7px auto 9px;flex-shrink:0;}
+.phone-frame .modal-overlay{position:absolute;align-items:flex-end;}
+.phone-frame .modal-card{width:100%;border-radius:22px 22px 0 0;box-shadow:0 -10px 30px rgba(20,15,8,0.18);}
+
+.discover-link{display:flex;align-items:center;gap:8px;margin-top:14px;padding:12px 14px;border:1px dashed var(--border);border-radius:var(--radius-md);color:var(--brand-strong);font-size:0.86rem;font-weight:600;cursor:pointer;}
+.discover-link:hover{border-color:var(--brand);background:var(--brand-soft);}
+
+.filter-chips{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0 14px;}
+.chip{padding:6px 13px;border-radius:999px;background:var(--surface);border:1px solid var(--border);color:var(--text-muted);font-size:0.78rem;font-weight:600;}
+.chip.is-active{background:var(--brand);border-color:var(--brand);color:#fff;}
+
+.map-box{position:relative;border-radius:var(--radius-md);overflow:hidden;border:1px solid var(--border);margin-bottom:8px;}
+.map-svg{display:block;width:100%;height:auto;}
+.map-caption{position:absolute;left:10px;bottom:8px;background:var(--surface);color:var(--text-muted);font-size:0.7rem;padding:3px 9px;border-radius:999px;box-shadow:var(--shadow-sm);}
+
+.shop-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;}
+.shop-list li{background:var(--surface-alt);border:1px solid var(--border);border-radius:var(--radius-md);padding:14px 16px;}
+.shop-main{display:flex;justify-content:space-between;align-items:baseline;gap:10px;}
+.shop-main strong{font-family:var(--font-display);font-size:0.98rem;}
+.shop-dist{color:var(--text-faint);font-size:0.78rem;font-family:var(--font-mono);flex-shrink:0;}
+.shop-tags{margin:4px 0 8px;font-size:0.8rem;color:var(--text-muted);}
+.shop-meta{display:flex;gap:14px;font-size:0.78rem;color:var(--text-faint);margin-bottom:10px;}
+.shop-actions{display:flex;gap:8px;}
+
+.qr-box{display:flex;gap:18px;align-items:center;background:var(--surface-alt);border:1px solid var(--border);border-radius:var(--radius-md);padding:18px;}
+.qr-svg{width:104px;height:104px;color:var(--text);flex-shrink:0;border-radius:6px;}
+.pet-id-label{display:block;font-size:0.72rem;color:var(--text-faint);text-transform:uppercase;letter-spacing:0.06em;}
+.pet-id{display:block;font-family:var(--font-mono);font-size:1.1rem;margin:2px 0 6px;}
+.qr-box .hint{margin:0;font-size:0.8rem;color:var(--text-muted);line-height:1.5;max-width:220px;}
+
+.timeline{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:0;}
+.timeline li{display:flex;gap:14px;padding-bottom:22px;position:relative;}
+.timeline li:not(:last-child)::before{content:"";position:absolute;left:5px;top:16px;bottom:0;width:1px;background:var(--border);}
+.tl-dot{width:11px;height:11px;border-radius:50%;background:var(--brand);flex-shrink:0;margin-top:4px;}
+.tl-content{flex:1;}
+.tl-head{display:flex;justify-content:space-between;font-size:0.92rem;margin-bottom:4px;}
+.tl-head span{color:var(--text-faint);font-size:0.8rem;font-family:var(--font-mono);}
+.tl-content p{margin:0 0 8px;color:var(--text-muted);font-size:0.86rem;line-height:1.5;}
+
+/* appointments */
+.reminder-card{display:flex;gap:14px;background:var(--pending-bg);border-radius:var(--radius-md);padding:16px 18px;margin-bottom:16px;}
+.reminder-card .icon-lg{color:var(--pending-fg);flex-shrink:0;}
+.reminder-card strong{display:block;margin-bottom:6px;color:var(--pending-fg);}
+.reminder-card p{margin:0 0 10px;font-size:0.88rem;color:var(--text);line-height:1.55;}
+.appt-topline{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;}
+.appt-card{background:var(--surface-alt);border:1px solid var(--border);border-radius:var(--radius-md);padding:16px 18px;margin-bottom:12px;}
+.appt-card.is-confirmed{border-color:var(--brand);}
+.appt-card.is-pending{border-color:var(--pending-dot);}
+.appt-head{display:flex;justify-content:space-between;align-items:center;font-size:0.8rem;color:var(--text-faint);margin-bottom:6px;font-family:var(--font-mono);}
+.appt-service{font-family:var(--font-display);font-size:1.05rem;display:block;margin-bottom:10px;}
+.appt-info{list-style:none;margin:0 0 12px;padding:0;display:flex;flex-direction:column;gap:4px;font-size:0.84rem;}
+.appt-info span{color:var(--text-faint);display:inline-block;width:96px;}
+.appt-actions{display:flex;gap:8px;flex-wrap:wrap;}
+.appt-pending-note{font-size:0.82rem;color:var(--text-muted);margin:0;line-height:1.5;}
+.inline-link{color:var(--brand-strong);font-weight:700;cursor:pointer;text-decoration:underline;}
+.rebook-list{list-style:none;margin:10px 0 0;padding:0;display:flex;flex-direction:column;gap:8px;}
+.rebook-list li{display:flex;justify-content:space-between;align-items:center;background:var(--surface-alt);border:1px solid var(--border);border-radius:var(--radius-md);padding:10px 14px;}
+.rebook-list strong{display:block;font-size:0.86rem;}
+.rebook-list span{color:var(--text-faint);font-size:0.78rem;}
+
+/* access/permission */
+.access-sub{color:var(--text-muted);font-size:0.86rem;margin:0 0 16px;}
+.qr-access-card{display:flex;align-items:center;gap:14px;background:var(--sidebar-bg);color:#fff;border-radius:var(--radius-md);padding:16px 18px;margin-bottom:20px;}
+.qr-access-card .icon-lg{color:#fff;flex-shrink:0;}
+.qr-access-card strong{display:block;margin-bottom:4px;}
+.qr-access-card p{margin:0;font-size:0.8rem;color:var(--sidebar-fg);line-height:1.5;}
+.countdown{font-family:var(--font-mono);font-size:0.9rem;background:rgba(255,255,255,0.15);padding:4px 10px;border-radius:999px;flex-shrink:0;}
+.access-h{font-family:var(--font-display);font-size:0.92rem;margin:20px 0 10px;color:var(--brand-strong);}
+.toggle-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px;}
+.toggle-list li{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid var(--border);}
+.toggle-list li:last-child{border-bottom:none;}
+.toggle-list strong{display:block;font-size:0.86rem;}
+.toggle-list span{color:var(--text-faint);font-size:0.76rem;}
+.grant-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;}
+.grant-list li{display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--surface-alt);border:1px solid var(--border);border-radius:var(--radius-md);padding:12px 14px;flex-wrap:wrap;}
+.grant-list strong{display:block;font-size:0.86rem;}
+.grant-list span{color:var(--text-faint);font-size:0.76rem;}
+.grant-pending{background:var(--pending-bg);border-color:var(--pending-dot);}
+.grant-actions{display:flex;gap:8px;}
+.access-log{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;font-size:0.82rem;}
+.access-log li{display:flex;justify-content:space-between;padding-bottom:8px;border-bottom:1px solid var(--border);color:var(--text-muted);}
+.access-log li:last-child{border-bottom:none;padding-bottom:0;}
+.log-time{color:var(--text-faint);font-family:var(--font-mono);font-size:0.76rem;}
+
+.rationale{margin-top:22px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:18px 22px;}
+.rationale h4{font-family:var(--font-display);margin:0 0 8px;font-size:0.92rem;color:var(--brand-strong);}
+.rationale ul{margin:0;padding-inline-start:20px;color:var(--text-muted);font-size:0.86rem;line-height:1.7;}
+.rationale-owner,.rationale-staff,.rationale-petowner{display:none;}
+#role-owner:checked ~ .rationale .rationale-owner{display:block;}
+#role-staff:checked ~ .rationale .rationale-staff{display:block;}
+#role-petowner:checked ~ .rationale .rationale-petowner{display:block;}
+
+.page-foot{max-width:700px;margin:26px auto 0;}
+.page-foot p{color:var(--text-faint);font-size:0.8rem;line-height:1.6;}
+
+.icon{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;vertical-align:-0.22em;flex-shrink:0;}
+.icon-fill{fill:currentColor;stroke:none;}
+.icon-sm{width:14px;height:14px;}
+.icon-lg{width:24px;height:24px;}
+.icon-xl{width:38px;height:38px;}
+:focus-visible{outline:2px solid var(--brand);outline-offset:2px;}
+
+@media (max-width:640px){
+  .page{padding:32px 16px 32px;}
+  .frame{min-width:0;}
+  #role-owner:checked ~ .frame-scroll .panel-owner,
+  #role-staff:checked ~ .frame-scroll .panel-staff{grid-template-columns:1fr;}
+  .sidebar{flex-direction:row;align-items:center;overflow-x:auto;padding:12px;gap:14px;}
+  .shop-badge{display:none;}
+  .side-nav{flex-direction:row;gap:4px;}
+  .side-link span:not(.side-badge){display:none;}
+  .stat-row{grid-template-columns:1fr 1fr;}
+  .two-col{grid-template-columns:1fr;}
+  .crm-layout{grid-template-columns:1fr;}
+  .settings-grid{grid-template-columns:1fr;}
+  .branch-cards{grid-template-columns:1fr;}
+  .three-col{grid-template-columns:1fr;}
+  .booking-card summary{flex-wrap:wrap;row-gap:6px;}
+  .field-row{flex-direction:column;}
+  .meta-row{gap:18px;}
+  .phone-frame{width:100%;max-width:340px;border-width:7px;border-radius:32px;}
+  .panel-petowner{padding:24px 12px;}
+}
+
+@media print{
+  @page{size:A4 landscape;margin:12mm;}
+  body{background:#fff;}
+  .page{max-width:none;padding:0;}
+  .role-tabs,.discover-link{display:none !important;}
+  input[type="radio"],input[type="checkbox"]{display:none !important;}
+  .modal-overlay{display:none !important;}
+  .frame-scroll{overflow:visible !important;}
+  .frame{min-width:0 !important;border:none;box-shadow:none;border-radius:0;}
+  .panel{display:block !important;}
+  .panel-owner,.panel-staff{display:block !important;}
+  .sidebar{display:none !important;}
+  .content{padding:0 !important;}
+  .page-panel,.portal-panel{display:block !important;page-break-after:always;break-after:page;}
+  .panel-owner::before,.panel-staff::before,.panel-petowner::before{
+    display:block;font-family:var(--font-display);font-weight:700;font-size:1.05rem;
+    color:var(--brand-strong);margin:0 0 12px;padding-bottom:6px;border-bottom:2px solid var(--brand);
+  }
+  .panel-owner::before{content:"ฝั่งเจ้าของกิจการ (Owner)";}
+  .panel-staff::before{content:"ฝั่งพนักงานร้าน (Staff)";}
+  .panel-petowner::before{content:"ฝั่งเจ้าของสัตว์เลี้ยง (Pet Passport)";}
+  .cal-grid{min-width:0 !important;}
+  .po-view-switch{display:none !important;}
+  .po-view-mobile-wrap{display:none !important;}
+  .po-view-web-wrap{display:flex !important;}
+  .panel-petowner{display:block !important;background:none !important;padding:0 !important;}
+  .web-frame{max-width:none !important;border:none !important;box-shadow:none !important;}
+  .portal-topbar,.portal-tabs{display:none !important;}
+  .portal-body{max-width:none !important;padding:0 !important;}
+  .rationale{page-break-before:always;}
+  .rationale-owner,.rationale-staff,.rationale-petowner{display:block !important;margin-bottom:16px;}
+}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
